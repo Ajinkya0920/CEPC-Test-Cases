@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Duplicate_Product</name>
+   <tag>CEPC Flow</tag>
+   <comment></comment>
+   <testCaseGuid>2b267b4f-09bd-47ad-8097-6a6521f07e92</testCaseGuid>
+</TestCaseEntity>

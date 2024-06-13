@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Add New_add-menu-entity-icon</name>
+   <tag></tag>
+   <elementGuidId>fecefbd3-0adf-4eb4-94cf-8719382341c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.add-menu-entity-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[7]/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Product(Link to Component Product)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3f9a4494-2994-4e43-9115-6112004316e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/entity/product.png</value>
+      <webElementGuid>2f7e5fb0-5fa9-45e4-b426-bc5929fe8262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-menu-entity-icon</value>
+      <webElementGuid>34589e2c-a5cb-4efe-be0a-5575eb1f912d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;gwt-PopupPanel&quot;]/div[@class=&quot;popupContent&quot;]/div[@class=&quot;popupMenu&quot;]/a[@class=&quot;gwt-Anchor list-group-item&quot;]/img[@class=&quot;add-menu-entity-icon&quot;]</value>
+      <webElementGuid>61d8f89e-e95e-424f-8e85-6d6f4f4285d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/a/img</value>
+      <webElementGuid>ba79cf94-e38f-4fcf-8378-4ba98318da67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'images/entity/product.png']</value>
+      <webElementGuid>d14f389b-4fc8-4790-9da2-071140eeb056</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Changes should reflect in CCS after publish</description>
+   <name>NetworkServiceChanges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99113fbf-1af8-47d5-b420-e51fb3e40aa1</testCaseGuid>
+</TestCaseEntity>

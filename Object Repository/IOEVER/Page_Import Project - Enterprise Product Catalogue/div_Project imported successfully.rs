@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Project imported successfully</name>
+   <tag></tag>
+   <elementGuidId>9c27b9b6-af9b-469e-9446-31383c91dbaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-info.alert-dismissable.c-alert-info.slide-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageBody']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#pageBody div >> internal:has-text=&quot;Project imported successfully. ×&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7695dae3-1231-4d55-84c0-0786c66ac414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gwt-comp-name</name>
+      <type>Main</type>
+      <value>com.cerillion.cpm.ui.components.bootstrap.BootBanner</value>
+      <webElementGuid>01f6af41-39b5-4f5d-9286-3cc46b204820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-info alert-dismissable c-alert-info slide-right</value>
+      <webElementGuid>6a572098-413a-45eb-a8fd-1e7d911f68ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Project imported successfully.  ×  </value>
+      <webElementGuid>8282749c-d996-4c41-a5a9-e31806e38a45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageBody&quot;)/div[@class=&quot;c-floaty-banner&quot;]/div[1]/div[@class=&quot;alert alert-info alert-dismissable c-alert-info slide-right&quot;]</value>
+      <webElementGuid>3c661fe5-b4fd-45c3-8f4f-9e1a9b3f7bcc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pageBody']/div/div/div</value>
+      <webElementGuid>ff9508ec-9d8a-4f33-b3af-a58ad1caeb12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Build: 1835'])[1]/following::div[4]</value>
+      <webElementGuid>1ec37a7d-f573-492a-a7b7-d630110edb07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null null'])[1]/following::div[6]</value>
+      <webElementGuid>89347790-55b7-417a-8f92-22da21ecbe78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import Project'])[1]/preceding::div[4]</value>
+      <webElementGuid>a61e68d7-9c90-4cd2-b9e3-fa4fb513aba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>28906223-8be7-4d5c-b680-5fcb791e28d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Project imported successfully.  ×  ' or . = ' Project imported successfully.  ×  ')]</value>
+      <webElementGuid>126cd56e-b02d-4703-8357-1c5782bdc55e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

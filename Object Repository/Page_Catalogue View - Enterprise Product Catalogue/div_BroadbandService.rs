@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_BroadbandService</name>
+   <tag></tag>
+   <elementGuidId>5124b5ce-3b9e-4cfb-83c8-770fdb056234</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Temporary Products'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Broadband Service&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ef026c33-cf84-47d8-810c-6e1c327e81a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxcombo_option_text</value>
+      <webElementGuid>988e2101-d922-457d-bb1e-1b20b974f028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Broadband Service</value>
+      <webElementGuid>91346631-b609-496a-9572-bda7111d68a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Broadband Service</value>
+      <webElementGuid>b339c7b7-8a47-48e1-b8df-bb2902d3ed5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;dhxcombolist_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_option dhxcombo_option_selected&quot;]/div[@class=&quot;dhxcombo_option_text&quot;]</value>
+      <webElementGuid>aaa13063-de60-486c-a8ea-9a7744881854</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Temporary Products'])[1]/following::div[3]</value>
+      <webElementGuid>256d8510-25ea-4603-b7e6-1de794b298db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TV Filters'])[1]/following::div[5]</value>
+      <webElementGuid>2e841c3e-bcab-4d55-bc38-a74249c250ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiber Klar'])[2]/preceding::div[1]</value>
+      <webElementGuid>bb30bf3f-af8a-434d-a7ad-9b7e338af1f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fixed Telephony'])[1]/preceding::div[3]</value>
+      <webElementGuid>ed4ef6cd-6229-4680-a5d8-c3803e5fc0c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Broadband Service']/parent::*</value>
+      <webElementGuid>f2e7a116-d1ae-4321-88ce-7f6d1a695f5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[21]/div/div</value>
+      <webElementGuid>413fb43f-df44-4405-989a-e531d26fb9fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Broadband Service' and (text() = 'Broadband Service' or . = 'Broadband Service')]</value>
+      <webElementGuid>7a681e78-088e-4d39-94bf-a15cf2722b3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div</value>
+      <webElementGuid>69155b9a-36a7-40bb-ba92-63dfb1f3f4b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

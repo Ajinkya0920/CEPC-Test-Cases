@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "6AA692E00CD292C88BCAC8A2C7841113",
+  "keywordClasses": [
+    {
+      "name": "sikuli.DragAndDrop",
+      "keywordMethods": [
+        {
+          "name": "sikuliDragDrop",
+          "parameters": [
+            {
+              "name": "dragImage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dropImage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new product _demo</name>
+   <tag>CEPC Flow</tag>
+   <comment></comment>
+   <testCaseGuid>d1aa7517-547c-4df7-8aec-61acd52af1b9</testCaseGuid>
+</TestCaseEntity>

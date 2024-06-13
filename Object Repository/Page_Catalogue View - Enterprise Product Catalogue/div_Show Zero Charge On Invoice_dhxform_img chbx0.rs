@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Show Zero Charge On Invoice_dhxform_img chbx0</name>
+   <tag></tag>
+   <elementGuidId>e4d70ec1-460a-48a4-9257-3d1fad5f2504</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='recordView']/div[2]/div/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > div > div > .dhxform_base_nested > .dhxform_base > .dhxform_item_label_top > .dhxform_control > .dhxform_img >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e3553f82-66ed-4af4-8a8b-8588303e35f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxform_img chbx0</value>
+      <webElementGuid>9d90956f-d881-47c1-abf9-22875250c79d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recordView&quot;)/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;block_dhxform_item_label_top c-form-field&quot;]/div[@class=&quot;dhxform_obj_dhx_skyblue dhxform_block&quot;]/div[@class=&quot;dhxform_base_nested in_block&quot;]/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;dhxform_item_label_top c-bold&quot;]/div[@class=&quot;dhxform_control dhxform_img_node&quot;]/div[@class=&quot;dhxform_img chbx0&quot;]</value>
+      <webElementGuid>c7dda9aa-e3ea-41c9-bdc2-846cc838e237</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>be14dc6d-b880-4bb3-a346-b3ff8f42a602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>deae8b4e-eb27-4c12-bcea-8f1f1757395f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

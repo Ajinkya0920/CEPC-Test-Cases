@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Account Loyalty Earning RateAccount _1781eb</name>
+   <tag></tag>
+   <elementGuidId>eaf59ab9-2172-49c4-8517-3501968f20b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.c-mandatory.c-simple-ddl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='search-wrapperx']/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8186f134-1be8-4942-a660-66e55f199512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control c-mandatory c-simple-ddl</value>
+      <webElementGuid>0d110f8b-7039-45b4-8904-1dd3cfc5b5b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Account Loyalty Earning RateAccount Loyalty SchemeAccount Loyalty Scheme ExclusionAccount Loyalty Scheme Exclusion GroupChannelCharge SelectionComboDeposit Service GroupFeatureGroupLoyalty Points Redemption RatePackage RuleProduct Charge ExtensionProduct Charge OptionProduct Charge PenaltyProduct Charge TypeProduct ComboProduct DiscountProduct Discount VersionProduct GroupProduct InformationProduct/PackagePromotion CodeResourceResource BundleSegmentation MethodSegmentation RuleService SpecificationTariff PackageBalance DefinitionBalance FunctionBalance Threshold DefnRate PlanRecurrence PlanRollover ProfileThreshold ActionUnitUsage TariffUsage Tariff CriteriaUsage Tariff Version3GPP SGSN MCC MNC3GPP Service TypeBalance Definition ListBasic Service ParameterCall TypeCommunityCommunity ListCommunity Type ListCountryCountry LookupDay Type LookupIP Range LookupItemisation DestinationNetwork ServiceNetwork Service ListNumber LookupNumber ZoneSD CountrySD Network ServiceService GroupSpecific Day TypeTariff TypeTime SlotTime Slot CriteriaTrans Code ListVLR LookupZoneSales Tax OverrideTaxation DecisionTaxation RateCodeDiscount CategoryDiscount DestinationDiscount Destination ListDiscount ExclusivityDiscount LimitDiscount PriorityDiscount ProfileDiscount Profile VersionDiscount RewardEligible DiscountMCC MNC ListProduct ListTemplate Instance</value>
+      <webElementGuid>b39ea0c7-0786-4207-990a-fd5e81ede60a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search-wrapperx&quot;)/div[2]/select[@class=&quot;form-control c-mandatory c-simple-ddl&quot;]</value>
+      <webElementGuid>85654201-e231-4d75-9dcb-7f5593a817a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='search-wrapperx']/div[2]/select</value>
+      <webElementGuid>f0d2d7e4-4f4f-4a52-afa9-562ddf5d629d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DROP MODE'])[1]/following::select[1]</value>
+      <webElementGuid>48694581-b6d1-4745-894e-2253931fcca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[3]/following::select[1]</value>
+      <webElementGuid>928ed8d7-f341-4e66-8328-cf2f620f1a95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lists Available'])[1]/preceding::select[4]</value>
+      <webElementGuid>ef2aa3ae-017f-4116-afab-1e34ed0f2ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[4]/preceding::select[4]</value>
+      <webElementGuid>6d285591-9c64-4c91-84e5-9e01a254b70c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d88a2457-19c8-4822-b194-7c898a001e00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Account Loyalty Earning RateAccount Loyalty SchemeAccount Loyalty Scheme ExclusionAccount Loyalty Scheme Exclusion GroupChannelCharge SelectionComboDeposit Service GroupFeatureGroupLoyalty Points Redemption RatePackage RuleProduct Charge ExtensionProduct Charge OptionProduct Charge PenaltyProduct Charge TypeProduct ComboProduct DiscountProduct Discount VersionProduct GroupProduct InformationProduct/PackagePromotion CodeResourceResource BundleSegmentation MethodSegmentation RuleService SpecificationTariff PackageBalance DefinitionBalance FunctionBalance Threshold DefnRate PlanRecurrence PlanRollover ProfileThreshold ActionUnitUsage TariffUsage Tariff CriteriaUsage Tariff Version3GPP SGSN MCC MNC3GPP Service TypeBalance Definition ListBasic Service ParameterCall TypeCommunityCommunity ListCommunity Type ListCountryCountry LookupDay Type LookupIP Range LookupItemisation DestinationNetwork ServiceNetwork Service ListNumber LookupNumber ZoneSD CountrySD Network ServiceService GroupSpecific Day TypeTariff TypeTime SlotTime Slot CriteriaTrans Code ListVLR LookupZoneSales Tax OverrideTaxation DecisionTaxation RateCodeDiscount CategoryDiscount DestinationDiscount Destination ListDiscount ExclusivityDiscount LimitDiscount PriorityDiscount ProfileDiscount Profile VersionDiscount RewardEligible DiscountMCC MNC ListProduct ListTemplate Instance' or . = 'Account Loyalty Earning RateAccount Loyalty SchemeAccount Loyalty Scheme ExclusionAccount Loyalty Scheme Exclusion GroupChannelCharge SelectionComboDeposit Service GroupFeatureGroupLoyalty Points Redemption RatePackage RuleProduct Charge ExtensionProduct Charge OptionProduct Charge PenaltyProduct Charge TypeProduct ComboProduct DiscountProduct Discount VersionProduct GroupProduct InformationProduct/PackagePromotion CodeResourceResource BundleSegmentation MethodSegmentation RuleService SpecificationTariff PackageBalance DefinitionBalance FunctionBalance Threshold DefnRate PlanRecurrence PlanRollover ProfileThreshold ActionUnitUsage TariffUsage Tariff CriteriaUsage Tariff Version3GPP SGSN MCC MNC3GPP Service TypeBalance Definition ListBasic Service ParameterCall TypeCommunityCommunity ListCommunity Type ListCountryCountry LookupDay Type LookupIP Range LookupItemisation DestinationNetwork ServiceNetwork Service ListNumber LookupNumber ZoneSD CountrySD Network ServiceService GroupSpecific Day TypeTariff TypeTime SlotTime Slot CriteriaTrans Code ListVLR LookupZoneSales Tax OverrideTaxation DecisionTaxation RateCodeDiscount CategoryDiscount DestinationDiscount Destination ListDiscount ExclusivityDiscount LimitDiscount PriorityDiscount ProfileDiscount Profile VersionDiscount RewardEligible DiscountMCC MNC ListProduct ListTemplate Instance')]</value>
+      <webElementGuid>8739125e-64c3-46ef-ad40-ad0403e7c94d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

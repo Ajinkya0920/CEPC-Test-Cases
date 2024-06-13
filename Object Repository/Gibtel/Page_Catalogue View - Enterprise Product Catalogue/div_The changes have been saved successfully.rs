@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_The changes have been saved successfully</name>
+   <tag></tag>
+   <elementGuidId>d6b0aadb-5cfb-4a63-a19d-112eeae721ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-success.alert-dismissable.c-alert-success.auto-dismiss</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageBody']/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#pageBody div >> internal:has-text=&quot;The changes have been saved successfully. ×&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7ba257f2-da35-4847-92b1-c112da86335e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gwt-comp-name</name>
+      <type>Main</type>
+      <value>com.cerillion.cpm.ui.components.bootstrap.BootBanner</value>
+      <webElementGuid>0c4edb15-973f-419f-b113-0b15c2eaa92d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-success alert-dismissable c-alert-success auto-dismiss</value>
+      <webElementGuid>a72ab468-4871-4ad9-af5b-2050e0b351d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> The changes have been saved successfully.  ×  </value>
+      <webElementGuid>a0079f05-f3eb-48bb-952c-4288d5ac82a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageBody&quot;)/div[@class=&quot;c-floaty-banner&quot;]/div[1]/div[@class=&quot;alert alert-success alert-dismissable c-alert-success auto-dismiss&quot;]</value>
+      <webElementGuid>3d756a86-1715-436f-b33e-20dc853e5d72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pageBody']/div/div/div[2]</value>
+      <webElementGuid>7495f69a-fcf8-4b20-b9b4-e7ba5ded101e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Large change being made. Please wait.'])[1]/following::div[2]</value>
+      <webElementGuid>d8b24106-cc3f-4f53-a20b-f12fb2a3ac0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Build: 1860'])[1]/following::div[8]</value>
+      <webElementGuid>1ea51525-4cb8-4b6e-b36a-3080ad19fd4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]</value>
+      <webElementGuid>96891e9d-e123-4da3-9ae7-88f84635006f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' The changes have been saved successfully.  ×  ' or . = ' The changes have been saved successfully.  ×  ')]</value>
+      <webElementGuid>d7299040-af8a-4bde-a328-2bfd773936bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

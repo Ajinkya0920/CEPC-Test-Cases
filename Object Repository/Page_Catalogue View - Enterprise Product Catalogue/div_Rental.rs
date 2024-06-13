@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rental</name>
+   <tag></tag>
+   <elementGuidId>364791d2-b3c7-4dc8-8ad0-a4617f8cc5d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dhxcombo_option.dhxcombo_option_selected > div.dhxcombo_option_text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Rental&quot;s >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f7bfd08-c200-48cf-be9c-07886de53800</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxcombo_option_text</value>
+      <webElementGuid>738f62c0-a91b-4cbb-80be-7ddf4ebafb79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Rental</value>
+      <webElementGuid>8d815a9b-1212-433d-a568-7486655176b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rental</value>
+      <webElementGuid>7546b9b1-d8c0-4b4a-b502-0b1bf372f93a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;dhxcombolist_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_option dhxcombo_option_selected&quot;]/div[@class=&quot;dhxcombo_option_text&quot;]</value>
+      <webElementGuid>c10ac797-0dc0-45f3-8af5-9bc3b9361e72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase'])[1]/following::div[2]</value>
+      <webElementGuid>12a3366e-69e9-4d4d-9f55-0f21ee40cfca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One Off'])[1]/following::div[4]</value>
+      <webElementGuid>cc23c95b-9702-4b28-84e0-272dc28fcff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surety Deposit'])[1]/preceding::div[1]</value>
+      <webElementGuid>db767f53-610a-4478-b47c-970d5ed3cd5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do not prorate on the initial provide'])[1]/preceding::div[3]</value>
+      <webElementGuid>d31bc1bb-ce9b-4ced-b500-00ee09f40438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rental']/parent::*</value>
+      <webElementGuid>ebdd72ff-71d1-4f1c-92a1-82bbca3c5612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[8]/div</value>
+      <webElementGuid>78b918bf-2e5c-4992-9c1f-2fe6c3a27581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Rental' and (text() = 'Rental' or . = 'Rental')]</value>
+      <webElementGuid>667ed4b4-1c6c-4674-87bb-7f4b9996df14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

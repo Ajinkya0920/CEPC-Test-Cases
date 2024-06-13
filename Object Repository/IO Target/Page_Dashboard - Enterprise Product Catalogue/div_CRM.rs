@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CRM</name>
+   <tag></tag>
+   <elementGuidId>2abb0473-c2e3-4e5e-8eea-c184fef7cda3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CCS'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;CRM&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>98c52cb3-0638-420b-88d6-5c1dbb0a5602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gwt-Label</value>
+      <webElementGuid>41cef0f8-01f4-49d4-bb7d-1f2224842698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CRM</value>
+      <webElementGuid>f8b7e1fc-ae17-446d-a65b-da013c1659f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;popupPanel&quot;]/div[1]/table[1]/tbody[1]/tr[@class=&quot;dialogMiddle&quot;]/td[@class=&quot;dialogMiddleCenter&quot;]/div[@class=&quot;dialogMiddleCenterInner dialogContent&quot;]/div[@class=&quot;targetPopup&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[1]/table[@class=&quot;gwt-TabPanel&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;gwt-TabBar&quot;]/tbody[1]/tr[1]/td[@class=&quot;gwt-TabBarItem-wrapper&quot;]/div[@class=&quot;gwt-TabBarItem&quot;]/div[@class=&quot;c-target-tab-header&quot;]/table[1]/tbody[1]/tr[1]/td[2]/div[@class=&quot;gwt-Label&quot;]</value>
+      <webElementGuid>206829ae-e85d-44a3-9844-322614a66a71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CCS'])[1]/following::div[3]</value>
+      <webElementGuid>2cc9dcaa-1c10-43db-a987-06922147ce36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target System Type'])[1]/following::div[9]</value>
+      <webElementGuid>04753074-db4f-4358-b1ae-6ffb6aa25580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open API'])[1]/preceding::div[1]</value>
+      <webElementGuid>8b321ed3-ccb3-4bad-ac18-420d18f7f9b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self Service'])[1]/preceding::div[4]</value>
+      <webElementGuid>42f070a4-71e4-4341-b973-c0721ed9ab60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CRM']/parent::*</value>
+      <webElementGuid>3c800269-987d-418a-a4f6-6d381142f8bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/table/tbody/tr/td[2]/div</value>
+      <webElementGuid>64773c88-c6cb-4b96-a20a-3036d58247f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CRM' or . = 'CRM')]</value>
+      <webElementGuid>ee2ea34f-2170-4d09-ad73-7f033e17d11a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

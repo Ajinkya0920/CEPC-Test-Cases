@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Gibtelecom - Pooja_DemoEdited 1523 (Me 1523)</name>
+   <tag></tag>
+   <elementGuidId>52c6a3b2-4989-4ff5-a561-ecf083572f13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.projects-list</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Gibtelecom - Pooja_DemoEdited: 15:23 \(Me: 15:23\)$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>be9643b1-4225-4a55-bb9f-cd47eebf7a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>projects-list</value>
+      <webElementGuid>df527124-ca81-468e-8866-319972388111</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gibtelecom - Pooja_DemoEdited: 15:23 (Me: 15:23)</value>
+      <webElementGuid>e5d9ebf3-dc62-4248-916a-f54afae85775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;leftarea&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body c-panel-reduce-padding&quot;]/div[@class=&quot;projects-list-outer auto-height bottom-margin-20&quot;]/div[@class=&quot;projects-list-inner&quot;]/div[@class=&quot;projects-list&quot;]</value>
+      <webElementGuid>853d1f1a-80ce-471c-8421-e44b2ad5b682</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>b71975b1-b969-4a2c-8b16-9ac3a1674b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projects Available'])[1]/following::div[4]</value>
+      <webElementGuid>3f95f295-d2bd-4a11-94b7-d1ec960967ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>23352df2-0832-4c5f-bc1e-b0e674980afd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Gibtelecom - Pooja_DemoEdited: 15:23 (Me: 15:23)' or . = 'Gibtelecom - Pooja_DemoEdited: 15:23 (Me: 15:23)')]</value>
+      <webElementGuid>51f21407-97cd-4520-927c-854467cee949</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

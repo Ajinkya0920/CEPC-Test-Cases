@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IO - IOPROD_ProjectEdited 22032024 (Me _049399</name>
+   <tag></tag>
+   <elementGuidId>c3d2ee56-8183-4e83-867a-9094602092a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^IO - IOPROD_ProjectEdited: 22/03/2024 \(Me: 22/03/2024\)$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>44a80340-f15f-4ea9-ad9a-7faebc2428d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>projects-list</value>
+      <webElementGuid>951459f1-2331-4ee6-bd4e-c9c085796ff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IO - IOPROD_ProjectEdited: 22/03/2024 (Me: 22/03/2024)</value>
+      <webElementGuid>a9ad73de-63dc-4b5f-a802-e6e5797af609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;leftarea&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body c-panel-reduce-padding&quot;]/div[@class=&quot;projects-list-outer auto-height bottom-margin-20&quot;]/div[@class=&quot;projects-list-inner&quot;]/div[@class=&quot;projects-list&quot;]</value>
+      <webElementGuid>d824676c-06b0-4cfb-8f21-c0da23922fd8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[3]</value>
+      <webElementGuid>fd5a2c04-8e84-496a-9ef1-7152e00e5ddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 08/05/2024 (Me: 06/05/2024)'])[1]/following::div[1]</value>
+      <webElementGuid>d4f1f2b0-5da4-4146-8e90-0d2ee747b3c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - IOProject'])[1]/following::div[1]</value>
+      <webElementGuid>e5620844-647c-45a2-bf78-84cefdc03943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div[2]/div/div/div[3]</value>
+      <webElementGuid>8de99d53-b306-4be3-b43b-973b8b9e1d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'IO - IOPROD_ProjectEdited: 22/03/2024 (Me: 22/03/2024)' or . = 'IO - IOPROD_ProjectEdited: 22/03/2024 (Me: 22/03/2024)')]</value>
+      <webElementGuid>bbf8c706-b843-421d-ad64-b8fd742ff1cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

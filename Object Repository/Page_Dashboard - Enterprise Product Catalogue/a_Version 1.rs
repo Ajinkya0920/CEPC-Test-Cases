@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Version 1</name>
+   <tag></tag>
+   <elementGuidId>9dbb09fc-7162-4562-b82c-a2551a178c72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.hyperlink > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;window.openInCatalogueSelection('0','1')&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Version 1&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>89597dfb-22b3-4893-b34b-e4881b2585b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>window.openInCatalogueSelection('0','1')</value>
+      <webElementGuid>a49d3654-ded8-4812-8191-29e6523a454d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Version 1</value>
+      <webElementGuid>6340ed5d-5461-4e03-bc02-c9406d9f5be7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel auto-height bottom-margin-50 dashboard-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
+      <webElementGuid>9203d539-2bbf-4bc4-99a9-811fb8780280</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;window.openInCatalogueSelection('0','1')&quot;]</value>
+      <webElementGuid>2a5c48f1-56a9-4ff1-b15d-c82c15258874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>7b929ca4-ea63-4710-99d6-c96bd00437b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Version 1')]</value>
+      <webElementGuid>45aeff28-b0b6-4713-bdb6-3567994159cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::a[1]</value>
+      <webElementGuid>924e5158-be06-4aa4-b6e9-e4d18fc8406c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[1]/following::a[1]</value>
+      <webElementGuid>604406f9-7914-4b2d-bf96-479452c867bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Valid.'])[1]/preceding::a[1]</value>
+      <webElementGuid>e56f1402-fa6e-4217-8aef-598b79287a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[2]/preceding::a[1]</value>
+      <webElementGuid>572e55bf-9779-48c8-b467-812369068d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Version 1']/parent::*</value>
+      <webElementGuid>874eec7c-758e-45bf-b0f9-9009e2f51faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>6a0e8207-c6fc-41e0-95cd-644c735477c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Version 1' or . = 'Version 1')]</value>
+      <webElementGuid>cec017cb-6b52-4236-b364-bb74fc3f3723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;window.openInCatalogueSelection('28','1')&quot;]</value>
+      <webElementGuid>1a104479-0426-4d37-8f70-351e97b3fa05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Revert)'])[1]/preceding::a[1]</value>
+      <webElementGuid>a5e14306-fb9e-4a75-8817-3e9be1f13785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[2]/preceding::a[2]</value>
+      <webElementGuid>9e77e6eb-ba80-4c8e-9b0f-288d2efd529d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

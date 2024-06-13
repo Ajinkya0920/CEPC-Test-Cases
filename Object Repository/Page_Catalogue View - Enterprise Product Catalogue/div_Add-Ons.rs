@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add-Ons</name>
+   <tag></tag>
+   <elementGuidId>e1a6f551-4b65-46bf-8e74-849b4533e296</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Adaptor Device'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[title=&quot;Add-Ons&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>37ee32ae-5727-44ed-a3ce-94aa6128c8bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxcombo_option_text</value>
+      <webElementGuid>ac1de589-95bc-4bba-a0dc-7fe25662e8bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add-Ons</value>
+      <webElementGuid>7e486255-5bd1-470a-b157-cb3e3e52d7ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add-Ons</value>
+      <webElementGuid>9b72e4bc-f7a1-40fe-adf0-05ecfce0b4c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;dhxcombolist_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_option dhxcombo_option_selected&quot;]/div[@class=&quot;dhxcombo_option_text&quot;]</value>
+      <webElementGuid>8d60f9af-d3c9-44dd-a810-0981c4f5d003</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adaptor Device'])[1]/following::div[2]</value>
+      <webElementGuid>30b60df8-099e-416b-a2ca-aa090bfe95b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SPEED COO Vas'])[1]/following::div[5]</value>
+      <webElementGuid>6a49c16c-a3c2-4268-a1f6-e2d724dc9dc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Charging only'])[1]/preceding::div[1]</value>
+      <webElementGuid>10d2fe4c-214b-4e1e-a5ef-41e6bb95c05e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FLS Hours'])[1]/preceding::div[3]</value>
+      <webElementGuid>04d47653-3d86-43c6-a7ce-ac72b01cbd4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add-Ons']/parent::*</value>
+      <webElementGuid>b89efb65-b5ab-4f2c-8ef0-f9020fd765e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div[2]/div</value>
+      <webElementGuid>9d06ec36-803f-4cf5-9a42-612f14f84f57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Add-Ons' and (text() = 'Add-Ons' or . = 'Add-Ons')]</value>
+      <webElementGuid>72cd8cda-ca1e-4a6f-95ac-b4223000df2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

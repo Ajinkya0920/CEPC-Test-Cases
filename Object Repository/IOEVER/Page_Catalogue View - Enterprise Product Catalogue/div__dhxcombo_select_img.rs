@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__dhxcombo_select_img</name>
+   <tag></tag>
+   <elementGuidId>56caa64a-acc6-4e82-88c8-0d0120b94a74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dhxform_item_label_top.validate_error > div.dhxform_control > span > div.dhxcombo_dhx_skyblue > div.dhxcombo_select_button > div.dhxcombo_select_img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='recordView']/div/div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > div > .dhxform_base_nested > .dhxform_base > .dhxform_item_label_top > .dhxform_control > span > .dhxcombo_dhx_skyblue > .dhxcombo_select_button > .dhxcombo_select_img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b4528cf-74e5-49ed-8e71-ff520b3e6d06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxcombo_select_img</value>
+      <webElementGuid>8128059e-b1c3-423c-a08f-f5e7e28a3251</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recordView&quot;)/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;block_dhxform_item_label_top c-form-field&quot;]/div[@class=&quot;dhxform_obj_dhx_skyblue dhxform_block&quot;]/div[@class=&quot;dhxform_base_nested in_block&quot;]/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;dhxform_item_label_top validate_error&quot;]/div[@class=&quot;dhxform_control&quot;]/span[1]/div[@class=&quot;dhxcombo_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_select_button&quot;]/div[@class=&quot;dhxcombo_select_img&quot;]</value>
+      <webElementGuid>b804e6c9-ccf1-48ef-9579-bab9dc47d068</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      <webElementGuid>52f4fe82-dd30-4e45-a134-683407cd4421</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      <webElementGuid>be640191-c4f7-4bb4-9f56-bd93f8c47d10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

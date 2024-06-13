@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Group Default_dhxform_img chbx1</name>
+   <tag></tag>
+   <elementGuidId>74e0a1a2-b29c-4890-98bd-f4e1d1088b5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dhxform_img.chbx1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='recordView']/div/div[3]/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(3) > div > .dhxform_base_nested > .dhxform_base > .dhxform_item_label_top > .dhxform_control > .dhxform_img >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>32d96b4d-c070-4c62-8fc6-aeaf0c67acc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dhxform_img chbx1</value>
+      <webElementGuid>a8fc22c6-de21-4418-8c35-c01c62c41a98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recordView&quot;)/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;block_dhxform_item_label_top c-form-field&quot;]/div[@class=&quot;dhxform_obj_dhx_skyblue dhxform_block&quot;]/div[@class=&quot;dhxform_base_nested in_block&quot;]/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;dhxform_item_label_top c-bold&quot;]/div[@class=&quot;dhxform_control dhxform_img_node&quot;]/div[@class=&quot;dhxform_img chbx1&quot;]</value>
+      <webElementGuid>582cdf8f-e1b5-412f-bb14-6e6e7b0e5457</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div[3]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>b632e01b-d781-4d24-ad1e-85b79cd89b6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div[3]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>7ed64e9f-191f-4e48-96a3-1a0edeeb1f0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

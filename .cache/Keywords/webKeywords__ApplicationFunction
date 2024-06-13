@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "7CCAE5B5DA7769D9EB54D48E210E69FB",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.ApplicationFunction",
+      "keywordMethods": [
+        {
+          "name": "keywordRobotDragDrop",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

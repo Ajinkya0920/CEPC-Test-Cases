@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Edited 15052024 (Me 15052024)</name>
+   <tag></tag>
+   <elementGuidId>fb104497-5198-4a45-a492-6b89093494e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[4]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Edited: 15/05/2024 (Me: 15/05/2024)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ad97c27-1f89-4910-a237-ff3d5a52647e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>project-edited</value>
+      <webElementGuid>c6a253f1-eef8-4cbe-b37c-bbf50efb5566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edited: 15/05/2024 (Me: 15/05/2024)</value>
+      <webElementGuid>3a1c9f38-4b0f-485b-aaa9-38a51c2160ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;leftarea&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body c-panel-reduce-padding&quot;]/div[@class=&quot;projects-list-outer auto-height bottom-margin-20&quot;]/div[@class=&quot;projects-list-inner&quot;]/div[@class=&quot;projects-list&quot;]/div[@class=&quot;projects-right&quot;]/span[@class=&quot;project-edited&quot;]</value>
+      <webElementGuid>1fb47953-e092-4f8a-a4b2-b5953168150c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[4]/div[2]/span</value>
+      <webElementGuid>c151cc15-4e0f-4f3a-864f-32923f10fa1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - IOPROD_Project'])[1]/following::span[1]</value>
+      <webElementGuid>2d73c39e-b83d-4a15-b849-56da823b051d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 16:52 (Me: 16:52)'])[1]/following::span[1]</value>
+      <webElementGuid>e5f73411-e6fd-44dc-891a-976661036ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - IOProject'])[1]/preceding::span[1]</value>
+      <webElementGuid>9ad0cae8-b131-413a-98a0-b5261aed7e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 08/05/2024 (Me: 06/05/2024)'])[1]/preceding::span[1]</value>
+      <webElementGuid>451bd9be-c603-4089-b782-6359cf2961bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edited: 15/05/2024 (Me: 15/05/2024)']/parent::*</value>
+      <webElementGuid>f5110c31-71b3-4b6d-a968-aceaf2419c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/span</value>
+      <webElementGuid>e2109a57-65be-4c40-87c8-82e6d55d10c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Edited: 15/05/2024 (Me: 15/05/2024)' or . = 'Edited: 15/05/2024 (Me: 15/05/2024)')]</value>
+      <webElementGuid>ec42b40d-2f07-40d3-b573-4238e5a5ed10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

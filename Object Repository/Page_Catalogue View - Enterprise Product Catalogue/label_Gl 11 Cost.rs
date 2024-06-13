@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Gl 11 Cost</name>
+   <tag></tag>
+   <elementGuidId>7b01a7b8-e92e-43aa-a0b2-05eb98006ae1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='recordView']/div/div[9]/div/div/div/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Gl 11 Cost*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>3e7d3197-2216-488a-a13c-fa85a555984c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>dhxId_1PqmQqrqtQBc</value>
+      <webElementGuid>ddeb0bdd-5915-4098-8b45-de4b22327942</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gl 11 Cost*</value>
+      <webElementGuid>e25475b4-5ea4-49fa-85d1-c5c0a64fdab2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recordView&quot;)/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;block_dhxform_item_label_top c-form-field&quot;]/div[@class=&quot;dhxform_obj_dhx_skyblue dhxform_block&quot;]/div[@class=&quot;dhxform_base_nested in_block&quot;]/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;dhxform_item_label_top text-grey&quot;]/div[@class=&quot;dhxform_label dhxform_label_align_left&quot;]/label[1]</value>
+      <webElementGuid>6334bc33-5707-499f-8c50-4f5e0b5cf215</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div[9]/div/div/div/div/div/label</value>
+      <webElementGuid>cbb7e021-9194-4184-bb34-54fbc19c40b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::label[1]</value>
+      <webElementGuid>86319f7e-3410-4f87-ae08-e9f3cefcdf12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gl 11 Product'])[1]/preceding::label[1]</value>
+      <webElementGuid>18ca1f51-2091-4ed0-b433-b354b70df93b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Gl 11 Cost']/parent::*</value>
+      <webElementGuid>cc796f0e-f5b2-48ab-9a85-63a1f23f0841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div/div/label</value>
+      <webElementGuid>610226f2-79bd-4bd6-bda1-5a354e4a46eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Gl 11 Cost*' or . = 'Gl 11 Cost*')]</value>
+      <webElementGuid>fbcb26a7-563a-452b-96ee-02ce31f83016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

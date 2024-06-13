@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IO - IOPROD_ProjectEdited 15052024 (Me _d7d489</name>
+   <tag></tag>
+   <elementGuidId>80aeb169-3f93-446b-8482-26ebb511f9ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^IO - IOPROD_ProjectEdited: 15/05/2024 \(Me: 15/05/2024\)$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a412a9dc-607c-46a4-a01d-8eba618a1a2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>projects-list</value>
+      <webElementGuid>b6c07e30-fcee-4bd3-85d5-f87dd652833c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IO - IOPROD_ProjectEdited: 15/05/2024 (Me: 15/05/2024)</value>
+      <webElementGuid>3454e8b7-4240-4b54-96f3-3a077014d319</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;leftarea&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body c-panel-reduce-padding&quot;]/div[@class=&quot;projects-list-outer auto-height bottom-margin-20&quot;]/div[@class=&quot;projects-list-inner&quot;]/div[@class=&quot;projects-list&quot;]</value>
+      <webElementGuid>636d104b-aecc-4de8-b584-39f10d788893</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>4cd9d21e-c1c8-4569-9773-d2846eaa5d38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 29/05/2024 (Me: 29/05/2024)'])[1]/following::div[1]</value>
+      <webElementGuid>5b93c8f2-c219-40b7-8c29-f1a3849e3c03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - ToluTest Project'])[1]/following::div[1]</value>
+      <webElementGuid>f4bbf09b-7856-4115-a99b-a760163f4360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>c7b826d8-7493-4ce1-95e6-3134450e8a0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'IO - IOPROD_ProjectEdited: 15/05/2024 (Me: 15/05/2024)' or . = 'IO - IOPROD_ProjectEdited: 15/05/2024 (Me: 15/05/2024)')]</value>
+      <webElementGuid>d8c4a825-6511-4e8a-a724-8e1fe751bd40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 24/05/2024 (Me: 24/05/2024)'])[1]/following::div[1]</value>
+      <webElementGuid>23c82770-be9d-4199-bfd8-61b4e59caea2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001- Add new Product IO</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>d6ebdce0-dabc-4077-9def-29bfbcc63a23</testCaseGuid>
+</TestCaseEntity>

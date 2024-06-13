@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Projects Available_glyphicon glyphicon-pl_4b449d</name>
+   <tag></tag>
+   <elementGuidId>4ae49fe2-ad82-4d9f-b9ed-c4c6b0f57b30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class='glyphicon glyphicon-plus hyperlink c-float-right c-new-target']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.glyphicon.glyphicon-plus.hyperlink.c-float-right.c-new-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.panel-heading > .glyphicon</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>87c7076d-5bd8-46f2-9e53-1ba3fdc768b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-plus hyperlink c-float-right c-new-target</value>
+      <webElementGuid>faa0d3ab-048a-48ab-97b5-a930ad2b94df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cpmRecent col-md-6&quot;]/div[1]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-heading clearfix&quot;]/a[@class=&quot;glyphicon glyphicon-plus hyperlink c-float-right c-new-target&quot;]</value>
+      <webElementGuid>37a81078-2e41-484f-b695-e5335751587e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>3a0f6b0b-3638-4446-a6cb-2f7e329b75e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/a</value>
+      <webElementGuid>a0ecc44a-8c30-44a5-9c53-ea7c862364c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div/a</value>
+      <webElementGuid>3e39bfb9-6338-44fd-bfaf-9eb364ca1771</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>7ff35a60-810c-44de-831e-86526f19d799</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

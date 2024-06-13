@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RightClickOnImage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ef759f0-adce-4973-8fc0-39a9ebf9d6aa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44099afb-5345-43bd-a5aa-bbb7e3360708</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44099afb-5345-43bd-a5aa-bbb7e3360708</id>
+      <masked>false</masked>
+      <name>clickImage</name>
+   </variable>
+</TestCaseEntity>
