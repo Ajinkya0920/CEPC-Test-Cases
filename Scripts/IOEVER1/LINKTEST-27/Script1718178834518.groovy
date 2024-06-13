@@ -21,7 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
 
-WebUI.delay(50)
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Username_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_password'), '7Dxoto1EjKfQbGop/Ov+1g==')
+
+WebUI.click(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_login'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/h4_IO - IOPROD_Project'))
 
@@ -32,6 +38,8 @@ WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Produ
 WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_File'))
 
 WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_Import From Excel'))
+
+WebUI.delay(2)
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/label_Recent Excel Uploads_btn btn-primary _68fdf4'), 
     'C:\\Users\\pooja.borawake\\Downloads\\PRODUCT_20240612105715.xlsx')

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>//button[@type = 'button' and (text() = 'Import' or . = 'Import')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4d4685f4-5b32-40f6-900c-4df81818e17a</webElementGuid>
+      <webElementGuid>f76f3d0c-fe90-4934-89b9-10e2f60103d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>34844a47-5350-41a1-badf-f2ae4572e96e</webElementGuid>
+      <webElementGuid>0d05145a-b2a7-42fa-95c3-354917409555</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>2751688e-8fa2-4dac-a16b-ae31d4839e50</webElementGuid>
+      <webElementGuid>862db70c-4816-425f-af66-5134a2c41af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Import</value>
-      <webElementGuid>2d31c7dc-a722-4001-8ece-e52993602464</webElementGuid>
+      <webElementGuid>cf3d5b35-0bff-4ce0-a438-157f803d0147</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;popupPanel&quot;]/div[1]/table[1]/tbody[1]/tr[@class=&quot;dialogMiddle&quot;]/td[@class=&quot;dialogMiddleCenter&quot;]/div[@class=&quot;dialogMiddleCenterInner dialogContent&quot;]/form[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>e20f8a44-d104-45cb-bebd-6bfd4cb37596</webElementGuid>
+      <webElementGuid>1cd1f169-64aa-4c5b-b2a2-494c974709df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>cca9b339-1e1d-4305-b329-262bc90237b4</webElementGuid>
+      <webElementGuid>214c4396-1df4-4b2d-9374-f524e6e96b6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Strict (do not import anything on warning)'])[1]/following::button[1]</value>
-      <webElementGuid>31db2fd1-77ac-4cf5-bab8-727f8e6a018e</webElementGuid>
+      <webElementGuid>c74ccb6a-3b6d-4cb0-a165-7db0c504d015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent Excel Uploads:'])[1]/following::button[1]</value>
-      <webElementGuid>8e39321f-ba7d-4e85-ba5c-ac8c591ea26c</webElementGuid>
+      <webElementGuid>c5b54d1c-8319-4252-aa50-77f06867974a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>e5cd7331-0970-4d47-97cb-ce5a111e0068</webElementGuid>
+      <webElementGuid>6fe1c162-3cb2-4731-a488-a058037dcad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Import']/parent::*</value>
-      <webElementGuid>e39e37f2-ca1f-450b-94fa-5b8150981335</webElementGuid>
+      <webElementGuid>86a4fe43-565e-4d17-a07f-61b2dc4ca0a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/button</value>
-      <webElementGuid>de081a86-1e23-45e7-8799-aa8497e5c373</webElementGuid>
+      <webElementGuid>ccd444e9-b656-46f2-90eb-a05cd06609d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Import' or . = 'Import')]</value>
-      <webElementGuid>9ad282f2-5f56-4e0d-bd6e-e7dc5deed5cb</webElementGuid>
+      <webElementGuid>0cd009fe-664e-41fe-9a1f-3d5bcaaddb37</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
