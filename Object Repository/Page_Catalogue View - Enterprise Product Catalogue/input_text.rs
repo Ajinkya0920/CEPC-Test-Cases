@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.hdrcell.filter > input[type=&quot;text&quot;]</value>
+         <value>input.form-control.c-file-textbox.c-bulk-action-detail-textbox</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[3]</value>
+         <value>//input[@type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=textbox >> nth=1</value>
+         <value>internal:role=textbox >> nth=2</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e2d2c149-86a0-4148-8b9a-edec6c8562f1</webElementGuid>
+      <webElementGuid>7fda6dbe-0962-4d46-82d3-a2bd970e84f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,23 +37,63 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>78263084-a0fb-46a6-850d-a4813bd1c905</webElementGuid>
+      <webElementGuid>1a7b3d50-eb08-4e5c-9a20-f1df9c550a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;existingGrid&quot;)/div[@class=&quot;xhdr&quot;]/table[@class=&quot;hdr&quot;]/tbody[1]/tr[3]/td[2]/div[@class=&quot;hdrcell filter&quot;]/input[1]</value>
-      <webElementGuid>02916c2c-b220-4160-9a75-05d8e55ac443</webElementGuid>
+      <value>id(&quot;rightarea&quot;)/div[1]/div[2]/div[1]/div[3]/div[@class=&quot;pt-15&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body bottom-margin-400&quot;]/div[@class=&quot;row c-line-height-31 c-bulk-action-increased-by&quot;]/div[@class=&quot;col-md-10 c-sync-body&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/input[@class=&quot;form-control c-file-textbox c-bulk-action-detail-textbox&quot;]</value>
+      <webElementGuid>0312de27-bab4-4241-8a92-00db569f6371</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control c-file-textbox c-bulk-action-detail-textbox</value>
+      <webElementGuid>0777bf57-913c-4b38-b160-6287b94385fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>571e0943-f1b7-44cc-a9d8-d9b328783526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[6]</value>
+      <webElementGuid>466af360-5e24-4255-937d-431d5941dc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[2]/div/div[3]/div[3]/div/div/div/div/div[5]/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/input</value>
+      <webElementGuid>f35b805e-4e1f-4b2e-b226-699753449fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/input</value>
+      <webElementGuid>8be075d3-e84d-45f9-b57e-a6fecc2a2a7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[3]</value>
-      <webElementGuid>dd64cf23-cfce-48b4-837e-fb62064b30c7</webElementGuid>
+      <webElementGuid>8cc7c197-4240-400c-aa43-eb24a8219683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='existingGrid']/div/table/tbody/tr[3]/td[2]/div/input</value>
-      <webElementGuid>966ac3d3-4238-4b83-b0fb-24b2ddbe30a1</webElementGuid>
+      <webElementGuid>213699c4-a5bf-418c-b150-1f4761f4dd5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,14 +109,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/input</value>
-      <webElementGuid>e5979750-c70a-46e4-87b5-854d40b3b39e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text']</value>
-      <webElementGuid>eab1b290-7d2c-48e1-94e2-a1bc7cd8de8c</webElementGuid>
+      <webElementGuid>129d2a60-44bc-4120-9440-bdafb8f05fe2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

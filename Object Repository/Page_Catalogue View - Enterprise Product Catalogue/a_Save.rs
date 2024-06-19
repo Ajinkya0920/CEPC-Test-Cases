@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='propsarea']/div/div[2]/table/tbody/tr/td/ul/li[2]/a</value>
+         <value>//a[@title = 'Save' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5afee70d-1264-4fe4-a972-1f81c700e564</webElementGuid>
+      <webElementGuid>6adc04b0-17ab-4cd0-b8e7-4caaed621bb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>c-inline</value>
-      <webElementGuid>2a40760a-e084-47bf-969c-3e3756f8c744</webElementGuid>
+      <webElementGuid>52eb1a7e-3943-45fb-84ff-28719fbc917b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>151ddedb-bd94-44f5-bd3b-dd7d988b67fa</webElementGuid>
+      <webElementGuid>ca312f09-696e-4638-a7ac-fb32dfcb9a4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>14205057-07c7-4855-bd3d-28c347ec5bb0</webElementGuid>
+      <webElementGuid>a6aae67f-76cc-4c90-b033-91fc809cf327</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,63 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;propsarea&quot;)/div[@class=&quot;cpmBottomPanelHeader&quot;]/div[@class=&quot;col-md-6 text-right&quot;]/table[@class=&quot;pull-right&quot;]/tbody[1]/tr[1]/td[@class=&quot;actionLinkArea&quot;]/ul[@class=&quot;breadcrumb pipe-separated-links&quot;]/li[2]/a[@class=&quot;c-inline&quot;]</value>
-      <webElementGuid>e4323c57-6626-470e-b550-dc2c68534a97</webElementGuid>
+      <webElementGuid>03526b6d-d3a0-49b2-b2db-68a8c776be8d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Save' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>e935fe1e-1f3d-478e-a830-ed9bbb3d593c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add row'])[2]/following::a[1]</value>
+      <webElementGuid>0c65d4cb-0d38-47af-88ce-aee07ff151be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editing Segmentation Method: SEGMENTATION_METHOD'])[1]/following::a[2]</value>
+      <webElementGuid>0660a056-3152-47a2-973b-db05b7d09274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::a[1]</value>
+      <webElementGuid>61d5f5cb-a3ec-4d8e-9f04-6dc1b4389bf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::a[2]</value>
+      <webElementGuid>44a77f38-6a4c-46ec-8cd2-8d61fa828bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>defa8cb9-726b-4364-9c8b-c347f47df6d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='propsarea']/div/div[2]/table/tbody/tr/td/ul/li[2]/a</value>
-      <webElementGuid>2f98c77f-0295-4e83-ab1b-cb77998db2e7</webElementGuid>
+      <webElementGuid>9b45c63b-a83f-4b5e-9016-2ac5255fedfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +125,15 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Save')]</value>
-      <webElementGuid>39c6a5d9-7ccd-4357-83bb-cf3fe0bf7972</webElementGuid>
+      <webElementGuid>e8f01ce7-d969-4d43-89be-32f94d34a380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/ul/li[2]/a</value>
+      <webElementGuid>fdc7add3-53f1-4c42-a796-dcf7b7f17742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,54 +150,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editing Product+: Product/Package'])[1]/following::a[2]</value>
       <webElementGuid>796f5e53-4e2f-47cd-9e30-c156372d1c3f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::a[1]</value>
-      <webElementGuid>dc2c306c-c140-4189-ac74-762119e88885</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to Excel'])[1]/preceding::a[2]</value>
-      <webElementGuid>24dfa3e8-4b56-4fd6-96ca-60d9aaa63aaa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>79c6de93-da6b-4627-aea8-3213d7160c52</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td/ul/li[2]/a</value>
-      <webElementGuid>edd86a5f-47aa-4fa1-bbec-f10f05c4a156</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@title = 'Save' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>877699f4-45a5-4f47-9901-4c5a3d85f155</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add row'])[2]/following::a[1]</value>
-      <webElementGuid>41170e07-977b-4e49-a91f-607a80d245cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

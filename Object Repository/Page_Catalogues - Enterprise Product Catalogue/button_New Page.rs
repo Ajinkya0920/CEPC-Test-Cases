@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//button[@type = 'button' and (text() = 'New Page' or . = 'New Page')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d0a576d5-261e-4d0f-92b9-edcf9faca1e9</webElementGuid>
+      <webElementGuid>98e27caa-bf13-4a52-8277-cb55562c31d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ed7dfbb7-f973-45af-8a91-1272e45a9998</webElementGuid>
+      <webElementGuid>7e87e248-1610-45f5-824f-ea0a77156338</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>8a8ce742-9bae-42d4-a22d-1395ef576173</webElementGuid>
+      <webElementGuid>f6afcebb-430f-4536-99ef-60ccdb71c7b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Page</value>
-      <webElementGuid>b885ea83-1a8b-4a0c-9b04-d63e2d7b47a4</webElementGuid>
+      <webElementGuid>af9614ab-51e0-4e7b-b582-fa6ad4ef2ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,23 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row cpmTopActionPanel&quot;]/div[@class=&quot;col-lg-4 pull-left keep-new-page-on-top&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>bfbc7cd2-fb58-4a2f-a0ea-f543648d65a7</webElementGuid>
+      <webElementGuid>b9f22361-697e-4735-a4db-ab4c6c990410</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>58ab4e6c-f986-4eca-af78-4c479462efd2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='rightarea']/div/div[2]/div/button</value>
-      <webElementGuid>4fa2c73a-8786-4e22-bb0b-31ba10498fbe</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'New Page' or . = 'New Page')]</value>
+      <webElementGuid>9d9b13a8-f176-4a1f-8760-8487f08b1770</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='admin'])[1]/following::button[1]</value>
-      <webElementGuid>5e96f22d-1cba-43d7-80ad-2d63b5b2d794</webElementGuid>
+      <webElementGuid>c30467ce-49ae-4523-a552-96721f34d383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited:'])[1]/following::button[1]</value>
-      <webElementGuid>10c869cd-7b5e-42e9-9b95-d14d61df1f8e</webElementGuid>
+      <webElementGuid>509c3ed7-bc85-4d68-9f15-6f7c526e5ebd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
-      <webElementGuid>4eb4cefe-e881-45e5-8c08-5c4aedf66409</webElementGuid>
+      <webElementGuid>30db4a6e-cacf-47a2-9924-d0b93bc3c4cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to XML'])[1]/preceding::button[2]</value>
-      <webElementGuid>6df95c78-29b8-4001-b013-5657e178fae4</webElementGuid>
+      <webElementGuid>2e441b42-c8ff-4ab2-b42c-58f5d7095cb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +109,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Page']/parent::*</value>
-      <webElementGuid>c3dc1be0-2e02-4b27-8de3-629dbc02198b</webElementGuid>
+      <webElementGuid>8a9f4523-f5f8-4283-84d8-3b17f248c713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>635bb87d-22e2-48f3-9bdd-649f34a0e183</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[2]/div/button</value>
+      <webElementGuid>e5f1c712-1769-49a3-8d7d-7e78bd8be667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,15 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>8ee87d86-0e42-49db-9f93-306a7be00396</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'New Page' or . = 'New Page')]</value>
-      <webElementGuid>c23bc68e-997b-479c-9ab3-aaf04554a65d</webElementGuid>
+      <webElementGuid>4be1354d-a44f-49ed-81c1-282781059f5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

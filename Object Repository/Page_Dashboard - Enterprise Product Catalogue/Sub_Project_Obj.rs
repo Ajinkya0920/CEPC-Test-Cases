@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(3) > td.hyperlink > a</value>
+         <value>div.panel-body.version-target-panel.recents-panel.auto-height.bottom-margin-50.sub-project-tab-content > div.tab-pane.fade.in.active > table.table > tbody > tr > td.hyperlink > a</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;window.openInCatalogueSelection('25','1')&quot;]</value>
+         <value>//a[(text() = 'Test' or . = 'Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d01cf7e4-df50-47f3-81f3-f454069dd4f2</webElementGuid>
+      <webElementGuid>7dfbd8d2-1178-4aaa-95d7-3f7ae33bed96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.openInCatalogueSelection('25','1')</value>
-      <webElementGuid>edd601d5-72fd-4b1a-a5dc-40f3c1b40d41</webElementGuid>
+      <webElementGuid>3df822ec-737f-4775-83de-dce56ae7ec4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,23 +49,95 @@
       <name>text</name>
       <type>Main</type>
       <value>Test</value>
-      <webElementGuid>8f41b1d9-4d65-426c-9f77-f45caa601bad</webElementGuid>
+      <webElementGuid>532e94cb-b235-4b48-8f35-7356000697f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cpmRecent col-md-4&quot;]/div[1]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel recents-panel auto-height bottom-margin-50 sub-project-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[3]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
-      <webElementGuid>f6a31d6f-0eb6-4741-bb86-e873f37489c3</webElementGuid>
+      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cpmRecent col-md-4&quot;]/div[1]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel recents-panel auto-height bottom-margin-50 sub-project-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
+      <webElementGuid>91482ba7-481a-4539-a416-d90b09c7df68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Test' or . = 'Test')]</value>
+      <webElementGuid>cfac3177-3357-45c6-8c38-798ae1812b31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
+      <webElementGuid>1d1817d9-756d-4533-8917-cf9653692ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[3]/following::a[1]</value>
+      <webElementGuid>f8d6c897-760e-4657-896a-3ff4d2b55f2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[2]/preceding::a[1]</value>
+      <webElementGuid>d64a97b9-8e7b-429f-aa5f-3e8ccf4ef0af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test3'])[1]/preceding::a[3]</value>
+      <webElementGuid>a9e78670-a1d1-4692-804b-f54c0a4eca1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Test']/parent::*</value>
+      <webElementGuid>c14d2403-4c65-4382-8547-54d39579ae9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;window.openInCatalogueSelection('25','1')&quot;]</value>
-      <webElementGuid>94f6d943-09f9-4958-834d-d7b95f3e464f</webElementGuid>
+      <webElementGuid>21d9e93f-2d7a-4437-a18f-39848a565dc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>5a81a74a-4e23-4aff-bdb3-5dd163c2f815</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Test')]</value>
+      <webElementGuid>27730aae-2272-491a-8670-da1e98b4b9f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>63172c3f-e4ac-43a9-b901-c85f5c8bf9d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,24 +176,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[2]/preceding::a[1]</value>
-      <webElementGuid>c6d863a5-264b-489d-8792-548652872590</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Project Name'])[2]/preceding::a[3]</value>
       <webElementGuid>76a40fde-2679-4ef2-a77f-b6e269eda360</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Test']/parent::*</value>
-      <webElementGuid>cd7eabfa-19a0-4fa7-ab8f-a769457f07ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,58 +190,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Test' or . = 'Test')]</value>
-      <webElementGuid>7f44f80e-4930-453a-8073-9f0b99443cc6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;window.openInCatalogueSelection('14','1')&quot;]</value>
       <webElementGuid>823e1fa1-df52-4248-a23c-fbac2b8a30d3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
-      <webElementGuid>9a79f9ec-ff04-4b63-9766-862c5fe15533</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Test')]</value>
-      <webElementGuid>d03e984e-8265-42b6-be1e-c56954216384</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
-      <webElementGuid>effbfe7a-ee4d-4825-bd81-1d9797d0c137</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[3]/following::a[1]</value>
-      <webElementGuid>1b949785-aa56-4383-9f34-f708bf260ead</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
-      <webElementGuid>d9251bd2-1509-4172-b55a-2e6ba70b3a17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

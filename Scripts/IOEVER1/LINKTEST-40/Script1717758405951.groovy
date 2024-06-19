@@ -21,10 +21,6 @@ import java.awt.event.KeyEvent as KeyEvent
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.StringSelection as StringSelection
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21323/auth/realms/IOEVER1_CEPC/protocol/openid-connect/auth?client_id=cepcauth&redirect_uri=https%3A%2F%2Flonlinux03.cerillion.com%3A21343%2Fepc%2Fmain.html%23dashboard&state=2b1563d5-1695-4bd3-a334-c160abc7b313&response_mode=fragment&response_type=code&scope=openid&nonce=09acbb77-49ee-453e-aeb6-8b1a0039fcd8')
-
 Robot robot = new Robot()
 
 WebUI.delay(0)

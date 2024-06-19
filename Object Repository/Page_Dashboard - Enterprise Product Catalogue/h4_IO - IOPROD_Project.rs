@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[2]/div[2]/h4</value>
+         <value>//h4[(text() = 'IO - IOPROD_Project' or . = 'IO - IOPROD_Project')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>456a9c6d-3943-41ce-bf69-6a63415ea97a</webElementGuid>
+      <webElementGuid>c85e94fa-26d1-4d37-bdb0-1a72ba449cb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>project-name</value>
-      <webElementGuid>2f6dfaa5-28be-4c71-9e8f-9d325cccbf72</webElementGuid>
+      <webElementGuid>d07e64c0-21ec-409d-a1ef-9a8a8b3290b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>IO - IOPROD_Project</value>
-      <webElementGuid>b6c7091a-28f9-49ee-8427-8f719cd6c816</webElementGuid>
+      <webElementGuid>46664aea-38fb-474a-a358-9e75abe1b1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +53,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;leftarea&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body c-panel-reduce-padding&quot;]/div[@class=&quot;projects-list-outer auto-height bottom-margin-20&quot;]/div[@class=&quot;projects-list-inner&quot;]/div[@class=&quot;projects-list&quot;]/div[@class=&quot;projects-right&quot;]/h4[@class=&quot;project-name&quot;]</value>
-      <webElementGuid>afc81601-6998-40f9-a23d-95b1dc609975</webElementGuid>
+      <webElementGuid>0cea4d38-6c2f-4a88-afa8-98f0f386e843</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[2]/div[2]/h4</value>
-      <webElementGuid>ccb7ed15-ab19-4dbe-8d0f-56fab6cb6aba</webElementGuid>
+      <value>//h4[(text() = 'IO - IOPROD_Project' or . = 'IO - IOPROD_Project')]</value>
+      <webElementGuid>257b13e7-682b-4ee5-a1f2-f39c36e7a6a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 29/05/2024 (Me: 20/05/2024)'])[1]/following::h4[1]</value>
-      <webElementGuid>6192c968-f942-40e7-ad56-7196eb79ee28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 18/06/2024 (Me: 18/06/2024)'])[1]/following::h4[1]</value>
+      <webElementGuid>490e3f24-6e56-430a-8aaf-7300d6bc7faf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - ToluTest Project'])[1]/following::h4[1]</value>
-      <webElementGuid>fec51abd-4c0e-4d85-a64e-f9a940adcc74</webElementGuid>
+      <webElementGuid>a47cee0b-3b9b-48d1-a65d-48dcc025d8a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 15/05/2024 (Me: 15/05/2024)'])[1]/preceding::h4[1]</value>
-      <webElementGuid>dba5d4d4-2547-45b2-8cfe-b2b8ef171637</webElementGuid>
+      <webElementGuid>799159c8-bc66-4908-a155-fb6b5ca3141f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IO - IOProject'])[1]/preceding::h4[1]</value>
-      <webElementGuid>13498e19-2576-4165-be60-8031380d4895</webElementGuid>
+      <webElementGuid>94fd907f-1e0c-4372-a524-fec23410396e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='IO - IOPROD_Project']/parent::*</value>
-      <webElementGuid>15e6a001-ea15-4f51-b0f0-de6788d2e608</webElementGuid>
+      <webElementGuid>af002a1c-10bb-4236-a45a-fff206b46181</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftarea']/div[2]/div/div[2]/div/div/div[2]/div[2]/h4</value>
+      <webElementGuid>7e380d3f-cd16-4446-9a66-07f5cab1a069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,15 +117,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/h4</value>
-      <webElementGuid>2ae706fb-efd3-4f17-a804-7f3d5bd80491</webElementGuid>
+      <webElementGuid>cc452876-a9de-4d27-be03-dd90f3dc9742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//h4[(text() = 'IO - IOPROD_Project' or . = 'IO - IOPROD_Project')]</value>
-      <webElementGuid>eab68221-0ecf-44f9-8938-e0ae62c58a58</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited: 29/05/2024 (Me: 20/05/2024)'])[1]/following::h4[1]</value>
+      <webElementGuid>670441d2-af56-415d-aaa2-a7672167e493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -48,3 +48,5 @@ WebUI.clickOffset(findTestObject('canvas'), 74, -73)
 
 WebUI.click(findTestObject('Object Repository/Page_Catalogue View - Enterprise Product Catalogue/a_Export to Excel'))
 
+WebUI.delay(10)
+

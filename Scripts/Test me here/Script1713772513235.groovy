@@ -23,3 +23,15 @@ WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashbo
 
 WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_IO'))
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
+
+WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_IO'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
+
+WebUI.setText(findTestObject('Object Repository/Page_Catalogue View - Enterprise Product Catalogue/input_text'), 'PKG')
+

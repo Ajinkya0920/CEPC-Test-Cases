@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.dhxform_item_label_top.validate_error > div.dhxform_control > span > div.dhxcombo_dhx_skyblue > div.dhxcombo_select_button > div.dhxcombo_select_img</value>
+         <value>div.dhxcombo_select_img</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='recordView']/div/div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+         <value>(.//label[text()='Method Type']//following::div//input)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div:nth-child(2) > div > .dhxform_base_nested > .dhxform_base > .dhxform_item_label_top > .dhxform_control > span > .dhxcombo_dhx_skyblue > .dhxcombo_select_button > .dhxcombo_select_img</value>
+         <value>.dhxcombo_select_img</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>93cff1f3-7cb0-4c90-b376-c4cb830a3d44</webElementGuid>
+      <webElementGuid>0c1c99b9-02ae-463d-bf05-ec35e3bfcff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dhxcombo_select_img</value>
-      <webElementGuid>8318d856-98ed-4e02-b49c-bc50960557d2</webElementGuid>
+      <webElementGuid>8f01de8b-8d65-4042-9c24-5682950554c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,47 +45,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;recordView&quot;)/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;block_dhxform_item_label_top c-form-field&quot;]/div[@class=&quot;dhxform_obj_dhx_skyblue dhxform_block&quot;]/div[@class=&quot;dhxform_base_nested in_block&quot;]/div[@class=&quot;dhxform_base&quot;]/div[@class=&quot;dhxform_item_label_top validate_error&quot;]/div[@class=&quot;dhxform_control&quot;]/span[1]/div[@class=&quot;dhxcombo_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_select_button&quot;]/div[@class=&quot;dhxcombo_select_img&quot;]</value>
-      <webElementGuid>bfd30f53-1841-40d4-aa48-730de51421d1</webElementGuid>
+      <webElementGuid>744cff3b-34e8-43ed-b712-28b7cddf9ed2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='recordView']/div/div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
-      <webElementGuid>a7d20854-f916-44f0-bcde-66e4d684a147</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
-      <webElementGuid>2dc491c2-80ec-47d4-b36e-e5aa623c47b9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='recordView']/div/div[6]/div/div/div/div/div[2]/span/div/div/div</value>
-      <webElementGuid>fb5056a4-26be-41d2-8b16-f14c3551c18d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/div/div/div/div/div[2]/span/div/div/div</value>
-      <webElementGuid>22c67740-7f10-448e-b738-c5cc5f5436ae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='recordView']/div/div/div/div/div/div[2]/div[2]/span/div/div/div</value>
-      <webElementGuid>25fccf8c-816d-4562-93a4-aceb17ee986f</webElementGuid>
+      <value>//div[@id='recordView']/div/div[3]/div/div/div/div/div[2]/span/div/div/div</value>
+      <webElementGuid>3e485324-a895-448e-bc5e-6c6aac40ea8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +61,46 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/div/div</value>
-      <webElementGuid>1a427750-c643-4ce8-8d2a-8350c0fe6264</webElementGuid>
+      <webElementGuid>b007c9f0-ead4-4dd0-a524-d2b211a81a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      <webElementGuid>52239f28-65dc-4865-9a40-bf0f3f5c9ddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      <webElementGuid>92a0a0e4-7a9c-4347-ba4b-4c7886b367ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div[6]/div/div/div/div/div[2]/span/div/div/div</value>
+      <webElementGuid>93ac62d2-b5ba-45d1-b2da-ccc351045138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/div[2]/span/div/div/div</value>
+      <webElementGuid>c1aede44-6d3d-4ede-b689-96adc407486f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='recordView']/div/div/div/div/div/div[2]/div[2]/span/div/div/div</value>
+      <webElementGuid>bf189255-b0b1-411e-af1e-bf78b2acd5f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

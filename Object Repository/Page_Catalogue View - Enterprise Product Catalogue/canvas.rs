@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>canvas</value>
-      <webElementGuid>c1b9a20d-d48e-463c-9062-97814ae272c9</webElementGuid>
+      <webElementGuid>e3e69ebd-ebe8-4826-80f1-d289561f2ff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>493</value>
-      <webElementGuid>e52b5ccd-1229-4a8a-b8ce-b558f08bfc86</webElementGuid>
+      <webElementGuid>41740414-1579-47b9-a76b-0d15a01948df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1402</value>
-      <webElementGuid>e9495cac-17f0-4f32-9672-7f2bc84bc5a5</webElementGuid>
+      <webElementGuid>8a40034f-9652-4527-a99b-106e1599f0e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mycy&quot;)/div[1]/canvas[4]</value>
-      <webElementGuid>718d32d5-729c-4d46-8b95-a9f3b6b4880f</webElementGuid>
+      <webElementGuid>91958e2b-3e12-4fac-b27e-3215a6f124dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mycy']/div/canvas[4]</value>
-      <webElementGuid>4c4f9a0a-2d04-4214-a551-e5008e1d03f3</webElementGuid>
+      <webElementGuid>ee08ed70-9510-4d5f-9cdd-b34c0db939ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +69,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//canvas[4]</value>
-      <webElementGuid>2e25e115-0f83-40cb-930f-b158780d6673</webElementGuid>
+      <webElementGuid>729c9ac1-e789-4301-89c4-153183e6f864</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
