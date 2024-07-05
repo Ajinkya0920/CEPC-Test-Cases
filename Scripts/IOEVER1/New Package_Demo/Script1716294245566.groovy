@@ -17,23 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
+not_run: WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Username_username'), 'admin')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Username_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_password'), '7Dxoto1EjKfQbGop/Ov+1g==')
+not_run: WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_password'), 
+    '7Dxoto1EjKfQbGop/Ov+1g==')
 
-WebUI.click(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_login'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Sign in to IOEVER1_CEPC/input_Password_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/div_IO - IOPROD_ProjectEdited 15052024 (Me _d7d489'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/div_IO - IOPROD_ProjectEdited 15052024 (Me _d7d489'))
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_IO'))
+WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_IO'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/Sub_Project_Obj'))
 

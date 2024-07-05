@@ -17,13 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
+not_run: WebUI.navigateToUrl('https://lonlinux03.cerillion.com:21343/epc/main.html#dashboard')
 
-WebUI.delay(50)
+not_run: WebUI.delay(50)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/h4_IO - IOPROD_Project'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/h4_IO - IOPROD_Project'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Page_Catalogues - Enterprise Product Catalogue/a_IO'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - Enterprise Product Catalogue/Sub_Project_Obj'))
 

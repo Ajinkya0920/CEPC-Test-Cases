@@ -6,19 +6,19 @@
    <elementGuidId>364791d2-b3c7-4dc8-8ad0-a4617f8cc5d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.dhxcombo_option.dhxcombo_option_selected > div.dhxcombo_option_text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dhxcombo_option.dhxcombo_option_selected > div.dhxcombo_option_text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Rental&quot;s >> nth=0</value>
+         <value>internal:text=&quot;Rental&quot;i >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5f7bfd08-c200-48cf-be9c-07886de53800</webElementGuid>
+      <webElementGuid>5f1e8128-aef1-4515-88a3-e67f60062e41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dhxcombo_option_text</value>
-      <webElementGuid>738f62c0-a91b-4cbb-80be-7ddf4ebafb79</webElementGuid>
+      <webElementGuid>a6182aa5-ee88-45e2-a885-179da071c8ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Rental</value>
-      <webElementGuid>8d815a9b-1212-433d-a568-7486655176b5</webElementGuid>
+      <webElementGuid>0a6852e3-3601-4566-8eb6-22957e3f6b8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Rental</value>
-      <webElementGuid>7546b9b1-d8c0-4b4a-b502-0b1bf372f93a</webElementGuid>
+      <webElementGuid>46397d07-0a94-4985-abbf-91376c8fc6b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;dhxcombolist_dhx_skyblue&quot;]/div[@class=&quot;dhxcombo_option dhxcombo_option_selected&quot;]/div[@class=&quot;dhxcombo_option_text&quot;]</value>
-      <webElementGuid>c10ac797-0dc0-45f3-8af5-9bc3b9361e72</webElementGuid>
+      <webElementGuid>d5253ab9-d0ed-41a2-a8c1-b54020881935</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'Rental' and (text() = 'Rental' or . = 'Rental')]</value>
+      <webElementGuid>4d42d09e-cce4-48b2-a237-f32bd9100560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase'])[1]/following::div[2]</value>
-      <webElementGuid>12a3366e-69e9-4d4d-9f55-0f21ee40cfca</webElementGuid>
+      <webElementGuid>97001340-89ac-43b7-a599-0d21bc63eb61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='One Off'])[1]/following::div[4]</value>
-      <webElementGuid>cc23c95b-9702-4b28-84e0-272dc28fcff7</webElementGuid>
+      <webElementGuid>638c3dca-90d4-49eb-8140-63ddeccae910</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +93,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surety Deposit'])[1]/preceding::div[1]</value>
-      <webElementGuid>db767f53-610a-4478-b47c-970d5ed3cd5e</webElementGuid>
+      <webElementGuid>b15d1511-7585-4c89-95a4-11ce605d3698</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do not prorate on the initial provide'])[1]/preceding::div[3]</value>
-      <webElementGuid>d31bc1bb-ce9b-4ced-b500-00ee09f40438</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::div[4]</value>
+      <webElementGuid>4fb723cf-cdf2-4cb3-a574-c061221832e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +109,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rental']/parent::*</value>
-      <webElementGuid>ebdd72ff-71d1-4f1c-92a1-82bbca3c5612</webElementGuid>
+      <webElementGuid>f4128d7e-bcf7-4d52-b37f-adbe7d7fe77b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[8]/div</value>
+      <webElementGuid>4b99df63-3644-417b-a602-b4c781cf29f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do not prorate on the initial provide'])[1]/preceding::div[3]</value>
+      <webElementGuid>df7569c4-e599-40c9-8acd-e5323ab5da37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[8]/div</value>
-      <webElementGuid>78b918bf-2e5c-4992-9c1f-2fe6c3a27581</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[@title = 'Rental' and (text() = 'Rental' or . = 'Rental')]</value>
-      <webElementGuid>667ed4b4-1c6c-4674-87bb-7f4b9996df14</webElementGuid>
+      <webElementGuid>f04551f3-0c8e-4184-bc62-f8ebc4f458cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

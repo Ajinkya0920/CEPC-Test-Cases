@@ -6,12 +6,12 @@
    <elementGuidId>160e6683-739b-430a-b400-28c499a018a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gwt-debug-projectName</value>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @id = 'gwt-debug-projectName']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='gwt-debug-projectName']</value>
+         <key>CSS</key>
+         <value>#gwt-debug-projectName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2df75405-4edb-413e-a37d-82ce21b61102</webElementGuid>
+      <webElementGuid>6a60f1eb-5882-4e70-9513-3672e4b9d271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>de6bdeb0-4ac5-450d-8636-fc08f651e120</webElementGuid>
+      <webElementGuid>7a026784-177e-4e6e-b143-a9d4119269dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control c-textbox c-mandatory</value>
-      <webElementGuid>d352d040-15e5-4ad7-9867-f6d16bd18807</webElementGuid>
+      <webElementGuid>2ba2d7eb-b34f-4a62-9574-96dcd1f91dc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gwt-debug-projectName</value>
-      <webElementGuid>fc8b6e77-3755-489b-9d59-676f62c93e76</webElementGuid>
+      <webElementGuid>6907165a-ef2e-4871-ab35-10e7ccfef5d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>45</value>
-      <webElementGuid>28e38e97-49e5-46a7-95d2-1817d64c934a</webElementGuid>
+      <webElementGuid>bfc62d6b-dc2c-49e0-94bf-5216468e19b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>data-placeholder-type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cc3203a2-f5d3-4f87-ac6c-220dd2ce9993</webElementGuid>
+      <webElementGuid>ea465402-1165-4675-8b85-c064414931a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gwt-debug-projectName&quot;)</value>
-      <webElementGuid>3744a303-a6e4-4228-b53a-d124a3d03b22</webElementGuid>
+      <webElementGuid>b9c3756b-17e8-456a-abc3-0520fab47961</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'gwt-debug-projectName']</value>
+      <webElementGuid>455cbc59-4a03-4b4c-91d1-ba5f97e3eda5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='gwt-debug-projectName']</value>
-      <webElementGuid>bc175554-cefe-454d-89e1-e7b804927b54</webElementGuid>
+      <webElementGuid>0c87f739-5495-4737-9a67-c6cc2c65a03e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,14 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>41f7a7a8-5565-4d79-b5ff-ed596ac55de2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'gwt-debug-projectName']</value>
-      <webElementGuid>0ec9225d-3b73-4b43-ac23-cd0215cffaf6</webElementGuid>
+      <webElementGuid>f0a513fd-ddd6-4717-8840-153be80e9c31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

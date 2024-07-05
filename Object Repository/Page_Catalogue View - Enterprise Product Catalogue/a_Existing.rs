@@ -6,12 +6,12 @@
    <elementGuidId>631ce597-3989-480b-8513-a05d496b75fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#existingpalette</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@href = '#existing' and @id = 'existingpalette' and (text() = 'Existing' or . = 'Existing')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#existingpalette</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>712da90c-1d56-4996-8834-f386a16c12c7</webElementGuid>
+      <webElementGuid>d6b5c505-d0eb-4df1-b213-019dfcfa8625</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#existing</value>
-      <webElementGuid>418aea63-8f4e-4970-b00c-56f5167733a1</webElementGuid>
+      <webElementGuid>d7475926-ebae-4e66-8af5-11571ee35de1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>existingpalette</value>
-      <webElementGuid>d3f87ec7-5f7d-48f5-a997-b312604449d3</webElementGuid>
+      <webElementGuid>2719b685-223e-4afe-931f-16a3726d6312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>73c8af40-52c2-42e9-a31b-863afef4d51a</webElementGuid>
+      <webElementGuid>32cce2d3-0887-4fe4-b2db-a2d8dafa07d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Existing</value>
-      <webElementGuid>89863e3c-948f-4bf6-a248-176b1cac93e3</webElementGuid>
+      <webElementGuid>91b984c2-e698-4f23-a1aa-e5e632db176e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;existingpalette&quot;)</value>
-      <webElementGuid>8356a87e-f655-4251-93fd-527782991012</webElementGuid>
+      <webElementGuid>5c39207a-69bb-463d-9769-02bff4ff15e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#existing' and @id = 'existingpalette' and (text() = 'Existing' or . = 'Existing')]</value>
-      <webElementGuid>3a57ea9c-2c1c-4b6f-a634-4a96ecb7cbab</webElementGuid>
+      <webElementGuid>d2546599-f419-45a0-8a9a-df0889a15a22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Template'])[2]/following::a[1]</value>
-      <webElementGuid>b072aebe-b17e-4899-9233-ef9583a1bf21</webElementGuid>
+      <webElementGuid>1fc060f4-9b8e-4291-8cde-62aa0409e381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::a[2]</value>
-      <webElementGuid>cc1df42c-588c-450b-be7e-dac1c2ee83d5</webElementGuid>
+      <webElementGuid>3dee11da-ddef-4e85-ad20-91387ea0095d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::a[1]</value>
-      <webElementGuid>81a8d5be-78f8-4b16-ad8f-142947dcf58e</webElementGuid>
+      <webElementGuid>6bb071ed-8b33-4a23-a7d2-5ea550efd57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help text goes here'])[1]/preceding::a[1]</value>
-      <webElementGuid>f79cfa49-22e1-4409-97e0-489553900588</webElementGuid>
+      <webElementGuid>0b3b8d21-ad4e-46cb-b152-2f89100010b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing']/parent::*</value>
-      <webElementGuid>50a61dee-4462-4cd9-8b01-5407f6ca6ff7</webElementGuid>
+      <webElementGuid>cb167acd-37b9-4b8f-87d1-d6fa2ddc8b22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='existingpalette']</value>
-      <webElementGuid>b990fbaa-650b-4e22-81dd-0dd7fa4c07a8</webElementGuid>
+      <webElementGuid>cc0fd08d-a09b-47ce-9227-988ed315659c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='leftarea']/div[2]/div/div/div/div/div/div/div/ul/li[3]/a</value>
-      <webElementGuid>5421a3fc-e52d-4a3b-987c-e3b6e5ee0ff2</webElementGuid>
+      <webElementGuid>4360638f-e0dc-4d4a-8a36-929ec7c8dc61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Existing')]</value>
-      <webElementGuid>d5cb34a9-bbfc-4540-a1ff-1e3c551ebf13</webElementGuid>
+      <webElementGuid>9fc7f557-728c-4198-a6ec-e354b831501e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#existing')]</value>
-      <webElementGuid>4020ed77-2f7f-40ff-9754-c3ebab1c43b5</webElementGuid>
+      <webElementGuid>a1d4ade5-7df7-4cca-8088-472977e47557</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div[2]/div/div/div/div/div/div/div/ul/li[3]/a</value>
-      <webElementGuid>fa85d3cf-6a3a-40b3-bd84-a2174bbe17b3</webElementGuid>
+      <webElementGuid>c1289073-af40-498f-8252-5db765c2b28a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

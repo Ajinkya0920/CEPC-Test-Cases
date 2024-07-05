@@ -6,10 +6,6 @@
    <elementGuidId>caa14a53-6746-47a0-a927-304459f27dba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.panel-body.version-target-panel.recents-panel.auto-height.bottom-margin-50.sub-project-tab-content > div.tab-pane.fade.in.active > table.table > tbody > tr > td.hyperlink > a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Test' or . = 'Test')]</value>
       </entry>
@@ -17,12 +13,16 @@
          <key>XPATH</key>
          <value>//a[(text() = 'Test' or . = 'Test')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.panel-body.version-target-panel.recents-panel.auto-height.bottom-margin-50.sub-project-tab-content > div.tab-pane.fade.in.active > table.table > tbody > tr > td.hyperlink > a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>a >> internal:has-text=/^Test$/</value>
+         <value>internal:role=cell[name=&quot;Test&quot;i] >> a</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7dfbd8d2-1178-4aaa-95d7-3f7ae33bed96</webElementGuid>
+      <webElementGuid>333c0a66-a174-4409-a63d-19b287251923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>window.openInCatalogueSelection('25','1')</value>
-      <webElementGuid>3df822ec-737f-4775-83de-dce56ae7ec4b</webElementGuid>
+      <value>window.openInCatalogueSelection('1','1')</value>
+      <webElementGuid>5e9f99ea-1d54-4871-835f-c0aa197b1f90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Test</value>
-      <webElementGuid>532e94cb-b235-4b48-8f35-7356000697f5</webElementGuid>
+      <webElementGuid>77a87914-72fd-4c16-8f49-7ce02cc7a4c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cpmRecent col-md-4&quot;]/div[1]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel recents-panel auto-height bottom-margin-50 sub-project-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
-      <webElementGuid>91482ba7-481a-4539-a416-d90b09c7df68</webElementGuid>
+      <webElementGuid>374b2298-6b51-4bfb-82f3-3578d7fe8edf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Test' or . = 'Test')]</value>
-      <webElementGuid>cfac3177-3357-45c6-8c38-798ae1812b31</webElementGuid>
+      <webElementGuid>bb7c1475-3bf8-4e78-a714-a639e13a1977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
-      <webElementGuid>1d1817d9-756d-4533-8917-cf9653692ac8</webElementGuid>
+      <webElementGuid>feffe368-b103-42ce-afd0-8e75be06f75f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,95 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[3]/following::a[1]</value>
-      <webElementGuid>f8d6c897-760e-4657-896a-3ff4d2b55f2a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[2]/preceding::a[1]</value>
-      <webElementGuid>d64a97b9-8e7b-429f-aa5f-3e8ccf4ef0af</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test3'])[1]/preceding::a[3]</value>
-      <webElementGuid>a9e78670-a1d1-4692-804b-f54c0a4eca1c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Test']/parent::*</value>
-      <webElementGuid>c14d2403-4c65-4382-8547-54d39579ae9a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@onclick=&quot;window.openInCatalogueSelection('25','1')&quot;]</value>
-      <webElementGuid>21d9e93f-2d7a-4437-a18f-39848a565dc8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
-      <webElementGuid>5a81a74a-4e23-4aff-bdb3-5dd163c2f815</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Test')]</value>
-      <webElementGuid>27730aae-2272-491a-8670-da1e98b4b9f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
-      <webElementGuid>63172c3f-e4ac-43a9-b901-c85f5c8bf9d1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[3]/td/a</value>
-      <webElementGuid>66fc397c-fe69-47c7-924f-8b6e1444747f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'Test')])[3]</value>
-      <webElementGuid>bc3b5181-f73d-415b-bb58-f933dbf43974</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test2'])[2]/following::a[3]</value>
-      <webElementGuid>9d63461e-2d9c-484f-a2fa-e9f7b89095ad</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test2'])[1]/following::a[3]</value>
-      <webElementGuid>3dd79311-0519-4a57-8a4f-e3db2551c043</webElementGuid>
+      <webElementGuid>17f4758b-d0c1-4333-af58-7c8c373a0b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,7 +89,111 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Project Name'])[2]/preceding::a[3]</value>
-      <webElementGuid>76a40fde-2679-4ef2-a77f-b6e269eda360</webElementGuid>
+      <webElementGuid>f008ee23-39b6-4f91-a34b-98578e989bf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Version'])[1]/preceding::a[3]</value>
+      <webElementGuid>de30f5ec-a382-466c-82a8-418d035057f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Test']/parent::*</value>
+      <webElementGuid>a9e60ae7-df0d-46e1-ad90-7f624ddb202c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;window.openInCatalogueSelection('1','1')&quot;]</value>
+      <webElementGuid>113bb0f7-f53b-472a-84ed-ae5a6e92d77c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>bafe5473-c55b-4dea-957c-0fe7b623dfab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Test')]</value>
+      <webElementGuid>d909f819-61bc-4a81-af7b-2bd3753c0351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>5347ca43-bc1e-4c2f-bd26-006a4eaec64f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[2]/preceding::a[1]</value>
+      <webElementGuid>b478b98e-2928-4eda-ae65-ce134e1b9bb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;window.openInCatalogueSelection('25','1')&quot;]</value>
+      <webElementGuid>6da6f8df-7259-4bf1-8722-30692c7dac25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test3'])[1]/preceding::a[3]</value>
+      <webElementGuid>e1183906-808b-4fe8-b970-83665b953ee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[3]/td/a</value>
+      <webElementGuid>8255e72a-508b-4fe7-9979-7fe1cb5c6954</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Test')])[3]</value>
+      <webElementGuid>3eb50147-a311-4bcb-bd1e-d606cb4d7831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test2'])[2]/following::a[3]</value>
+      <webElementGuid>81d94e89-98c3-410d-ab45-d237b2aeeb07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test2'])[1]/following::a[3]</value>
+      <webElementGuid>d6675b13-254e-4b3b-aeba-9749f1dc1b99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,7 +201,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/table/tbody/tr[3]/td/a</value>
-      <webElementGuid>bb00d7d1-8d4e-435c-9a01-7dbde19410c2</webElementGuid>
+      <webElementGuid>585ffa59-8dc5-4d67-8432-e18e78d54148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -193,7 +209,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;window.openInCatalogueSelection('14','1')&quot;]</value>
-      <webElementGuid>823e1fa1-df52-4248-a23c-fbac2b8a30d3</webElementGuid>
+      <webElementGuid>5e9773a6-e47d-4f8d-b7a7-1ed0d383a42d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -201,7 +217,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;window.openInCatalogueSelection('4','1')&quot;]</value>
-      <webElementGuid>6f0c829f-7736-4ea9-b7bb-bd72aaeb5055</webElementGuid>
+      <webElementGuid>845e694c-70d5-4654-b516-e370c37488c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -209,7 +225,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=&quot;window.openInCatalogueSelection('6','1')&quot;])[2]</value>
-      <webElementGuid>1c992197-8248-491f-bc83-c38de577f1c7</webElementGuid>
+      <webElementGuid>954a4333-3760-4008-b610-ea14c79e29e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -217,7 +233,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr[2]/td/a</value>
-      <webElementGuid>129aef0a-2968-4597-bf22-8a79c543cb7e</webElementGuid>
+      <webElementGuid>7e2e5d22-280d-4a47-b013-359099c65759</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -225,7 +241,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Test')])[2]</value>
-      <webElementGuid>3de0c37a-229c-49d6-819c-653df16ac8fd</webElementGuid>
+      <webElementGuid>432f3e42-b51b-4a20-b185-dd65f192836d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -233,7 +249,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo'])[2]/following::a[3]</value>
-      <webElementGuid>e478dacd-7ec4-4519-b8c3-4bffe04ec26b</webElementGuid>
+      <webElementGuid>e8578fc5-5be1-43b0-af7c-f5a06dd67eb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -241,7 +257,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo'])[1]/following::a[3]</value>
-      <webElementGuid>5eb3399f-45e0-4e2b-94a7-d4fca516e04e</webElementGuid>
+      <webElementGuid>7c72122d-345a-4c4d-ac7f-82ae5efa86ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -249,6 +265,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/table/tbody/tr[2]/td/a</value>
-      <webElementGuid>a48d4f96-26ea-4706-ba9e-1a116dd7a218</webElementGuid>
+      <webElementGuid>7a02ee46-b325-4491-a030-a73950653643</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

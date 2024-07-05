@@ -6,12 +6,12 @@
    <elementGuidId>319f2f3b-f45e-4a69-9a7c-87aa85cc658e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#dhxId_sZKtyLxUaaQz</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//label[text()='Product Description']//following::div//input)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dhxId_7GyFy1G6Twqk</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9d469027-6dac-4a52-8f3e-830945e161c5</webElementGuid>
+      <webElementGuid>5b4fb092-202f-4ed8-a208-e43789caaf9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dhxform_textarea</value>
-      <webElementGuid>e0bc5484-2dae-4a1a-946e-bce652f6f044</webElementGuid>
+      <webElementGuid>b1fe5c01-93a8-4263-bef9-b29ee1cedef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +45,15 @@
       <name>name</name>
       <type>Main</type>
       <value>Product Description</value>
-      <webElementGuid>fa21eebf-57c9-495d-9448-47d55f6b2805</webElementGuid>
+      <webElementGuid>9b376bb6-d3cf-46a0-9d2d-d0f250519811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>dhxId_sZKtyLxUaaQz</value>
-      <webElementGuid>9cd1fc17-4ff8-485c-a18c-6a8be7156b6a</webElementGuid>
+      <value>dhxId_7GyFy1G6Twqk</value>
+      <webElementGuid>3135cdae-74e4-4289-b33d-810c6adabb44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
-      <webElementGuid>b8aa7f92-ea61-4299-8d50-a9cfcc993c88</webElementGuid>
+      <webElementGuid>3fdb106b-8f98-4cd5-9c52-8550d0ac89a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>c528fa62-2a4a-4212-bebd-b3e69ae7ff64</webElementGuid>
+      <webElementGuid>790f10f1-13d5-42c5-b2bb-9cdf7b9a82aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,23 +77,31 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>80</value>
-      <webElementGuid>53210096-37a1-4195-88d9-64a264cf97c9</webElementGuid>
+      <webElementGuid>c30b57ec-5cb1-4f14-b5cd-4e3bbc72ca7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dhxId_sZKtyLxUaaQz&quot;)</value>
-      <webElementGuid>31958abd-5fc3-48d6-8323-9fc0737e4596</webElementGuid>
+      <value>id(&quot;dhxId_7GyFy1G6Twqk&quot;)</value>
+      <webElementGuid>84b5d638-0fd7-4fdf-8c41-d3bac4830e9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'Product Description' and @id = 'dhxId_7GyFy1G6Twqk' and @type = 'TEXT']</value>
+      <webElementGuid>1ccac4d2-3615-401e-839d-f5d34277384b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='dhxId_sZKtyLxUaaQz']</value>
-      <webElementGuid>19e943c3-1f44-4896-9e8d-517c4476d235</webElementGuid>
+      <value>//input[@id='dhxId_7GyFy1G6Twqk']</value>
+      <webElementGuid>d7a27f3a-f2ce-4f87-afb1-67e4ccb4b7cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='recordView']/div/div[4]/div/div/div/div/div[2]/input</value>
-      <webElementGuid>5a72615f-7758-431f-9076-e25d1d104af8</webElementGuid>
+      <webElementGuid>8834a44b-c781-4557-9b61-fce4cbaf4499</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +117,31 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>37a843e5-ef4c-40c7-8b52-c511c42c1aed</webElementGuid>
+      <webElementGuid>4e26132a-a989-4d3a-959f-bac5e652bbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'Product Description' and @id = 'dhxId_xW8CdMzfCnJJ' and @type = 'TEXT']</value>
+      <webElementGuid>3d5837aa-e639-4bd9-84a4-1be91f1d1ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='dhxId_xW8CdMzfCnJJ']</value>
+      <webElementGuid>b43b9c57-ff5f-4f14-9d15-a7dcdad56e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='dhxId_sZKtyLxUaaQz']</value>
+      <webElementGuid>8429c9e3-940e-4794-b1af-758a37131150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +149,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'Product Description' and @id = 'dhxId_sZKtyLxUaaQz' and @type = 'TEXT']</value>
-      <webElementGuid>e701157a-3604-4aa5-9902-fd4c1d940891</webElementGuid>
+      <webElementGuid>9fb86dda-f6cc-479d-9727-192c566a6e46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +157,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='dhxId_YM4NSKW1Z7FO']</value>
-      <webElementGuid>3f99fa02-baa4-4542-801d-46439f2d207b</webElementGuid>
+      <webElementGuid>8f74bc7e-a17d-4399-be6d-fa4aa8e3db4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +165,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'Product Description' and @id = 'dhxId_YM4NSKW1Z7FO' and @type = 'TEXT']</value>
-      <webElementGuid>77816dde-2ddf-4b58-811c-02e71c5b1e7f</webElementGuid>
+      <webElementGuid>46920d47-c334-4e1f-b7f2-0286d41bd6b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +173,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='dhxId_S12hRetMEBLq']</value>
-      <webElementGuid>d0b865a9-d678-4a48-b17f-2e8c0d7aac4b</webElementGuid>
+      <webElementGuid>393235b4-a4d6-4ffe-be6f-f5bc922668f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +181,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'Product Description' and @id = 'dhxId_S12hRetMEBLq' and @type = 'TEXT']</value>
-      <webElementGuid>bbbc5442-f53e-4270-ab9b-3fea5a69b332</webElementGuid>
+      <webElementGuid>2929d6db-ad53-4640-bbaa-e25cd98aba16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

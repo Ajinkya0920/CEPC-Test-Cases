@@ -6,12 +6,12 @@
    <elementGuidId>c8377719-5afa-485a-8c26-c6f1d3dbdd99</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[(text() = 'View/Edit' or . = 'View/Edit')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'View/Edit')])[2]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>06029e36-882a-4955-a47c-3b24dde9c4cb</webElementGuid>
+      <webElementGuid>e196c580-cfdd-4f9e-98a4-bb4486b6d0c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>gwt-Anchor list-group-item c-context-menu-right-arrow</value>
-      <webElementGuid>d0430650-e41e-47a2-8816-a11283e42bc0</webElementGuid>
+      <webElementGuid>58319c5b-d83e-4d5c-bc47-aea8fc1f9eef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View/Edit</value>
-      <webElementGuid>aee7231f-3fee-4417-8dbb-83b4150f7344</webElementGuid>
+      <webElementGuid>baa30614-0f32-4f91-95fd-e7ce20a1f043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,71 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cpm-whole-body&quot;]/div[@class=&quot;popupMenu&quot;]/div[@class=&quot;popupContent&quot;]/div[1]/a[@class=&quot;gwt-Anchor list-group-item c-context-menu-right-arrow&quot;]</value>
-      <webElementGuid>fbccbfbb-1947-4d2a-ac13-f9c99415be74</webElementGuid>
+      <webElementGuid>fc548ad8-0778-4548-8c13-44d565f7e74b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'View/Edit' or . = 'View/Edit')]</value>
+      <webElementGuid>a91e63b8-4442-491f-9a68-b689c06b637d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Centre'])[3]/following::a[1]</value>
+      <webElementGuid>ec88c998-5347-4e94-ae8b-22754397241d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide and Ignore'])[1]/following::a[2]</value>
+      <webElementGuid>0d46eaa9-3b73-4bfd-b6fc-b12fd6e98bf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Folded View/Edit'])[1]/preceding::a[1]</value>
+      <webElementGuid>90fc08ad-36e2-4ca4-89d7-f3997febfa55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/preceding::a[2]</value>
+      <webElementGuid>60bddcf5-4761-40de-91c2-ffe70bbca589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View/Edit']/parent::*</value>
+      <webElementGuid>6e9aad84-a6a7-4497-a301-f815848bfbee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'View/Edit')])[2]</value>
-      <webElementGuid>45c5a503-e054-43e1-aa97-6e917b2ac1ed</webElementGuid>
+      <webElementGuid>57ab1896-2db2-47ac-bd2b-717934d0549a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[9]</value>
+      <webElementGuid>f3cefdd3-acc4-498b-93cd-2d40dd2c9d4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,53 +126,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Centre'])[2]/following::a[1]</value>
       <webElementGuid>647ef35e-c306-4ed0-a240-fe4ee126f388</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide and Ignore'])[1]/following::a[2]</value>
-      <webElementGuid>ef23ca1e-e968-4abd-83c3-61168c19fefb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Folded View/Edit'])[1]/preceding::a[1]</value>
-      <webElementGuid>5acb9476-ac83-42d1-af85-e072b334ffc9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/preceding::a[2]</value>
-      <webElementGuid>ae6045a7-637e-4a24-917a-4cbb85071b2e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='View/Edit']/parent::*</value>
-      <webElementGuid>ca585d86-5045-4c06-b91e-58a615021014</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//a[9]</value>
-      <webElementGuid>2c12df52-c88f-4af3-84a8-1fb9ff66877e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = 'View/Edit' or . = 'View/Edit')]</value>
-      <webElementGuid>3117f4aa-7bf6-4d8d-b46c-8d7bea9373c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

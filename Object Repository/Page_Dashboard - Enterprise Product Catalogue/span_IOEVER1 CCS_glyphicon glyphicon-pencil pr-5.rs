@@ -6,19 +6,19 @@
    <elementGuidId>e7bc928b-4841-4f2c-9c19-20a7e1432503</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.glyphicon.glyphicon-trash</value>
+         <key>XPATH</key>
+         <value>//span[@title = 'Logout']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td[4]/a[2]/span</value>
+         <key>CSS</key>
+         <value>span.glyphicon.glyphicon-log-out.c-logout-highlight</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;Test 31/05/2024 by admin Test EditDelete&quot;i] >> internal:attr=[title=&quot;Delete&quot;i]</value>
+         <value>#gwt-debug-LOGOUT</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bdde345e-845b-43af-b2e6-5051687b4223</webElementGuid>
+      <webElementGuid>20ca12a3-92ca-42c4-828b-acea988a6ec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-trash</value>
-      <webElementGuid>808358ea-1aa0-43ef-b328-6bd91176e2d1</webElementGuid>
+      <value>glyphicon glyphicon-log-out c-logout-highlight</value>
+      <webElementGuid>0cd952d6-6660-4167-a3e1-dfbc7c0bd9b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +45,63 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>897331b6-deda-48e7-beb9-6228b4d19e54</webElementGuid>
+      <webElementGuid>4cf0eaba-c22b-4531-968e-a3bbfb2c23cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gwt-debug-LOGOUT&quot;)/span[@class=&quot;glyphicon glyphicon-log-out c-logout-highlight&quot;]</value>
+      <webElementGuid>a9ba4ee0-73cf-4202-af63-52f0fda6c37b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>19feb2c4-4331-4331-bce9-55f1f5cb33bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>title</name>
       <type>Main</type>
-      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cpmRecent col-md-4&quot;]/div[1]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel recents-panel auto-height bottom-margin-50 sub-project-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[@class=&quot;c-inline&quot;]/span[@class=&quot;glyphicon glyphicon-trash&quot;]</value>
-      <webElementGuid>794528cb-b3e6-40f5-adc0-d09fc155f5cc</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>a0717c3c-a2de-46f2-8969-2fb30f85037b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Logout']</value>
+      <webElementGuid>dfd27340-325a-4a30-83f2-0b239a62fb51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='gwt-debug-LOGOUT']/span</value>
+      <webElementGuid>9a937caf-f9e8-4208-b77d-fc8579e63db4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/span</value>
+      <webElementGuid>1cd7a517-d8d7-425e-83de-8bb329f7d4b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rightarea']/div/div[3]/div/div/div[2]/div/div/div[2]/div/table/tbody/tr/td[4]/a[2]/span</value>
-      <webElementGuid>c55c1cea-36c2-4d22-87e9-b2b33a80249b</webElementGuid>
+      <webElementGuid>992e5b23-fa2e-4af6-99d4-6418ea7513e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/span</value>
-      <webElementGuid>64ca3d4b-a2fc-4821-8a7a-47eb550383a5</webElementGuid>
+      <webElementGuid>a1c47734-3b18-4c2d-84fc-175ba7cdf659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rightarea']/div/div[3]/div/div/div[3]/div/div/div[2]/table/tbody/tr/td[3]/a/span</value>
-      <webElementGuid>f338ec39-9cc5-49dc-b3fb-339804b34a35</webElementGuid>
+      <webElementGuid>f263f6d8-b423-40ae-9910-76d07ef40d4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a/span</value>
-      <webElementGuid>1b6ebb92-c7a8-41c3-9831-045ccb3d120b</webElementGuid>
+      <webElementGuid>08301321-538a-4b52-8c2d-92cd537b3ce9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

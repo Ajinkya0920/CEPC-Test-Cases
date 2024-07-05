@@ -6,12 +6,12 @@
    <elementGuidId>5b1243cf-cabb-43aa-a63c-7830ed049aa9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>canvas:nth-of-type(4)</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mycy']/div/canvas[4]</value>
+         <key>CSS</key>
+         <value>canvas:nth-of-type(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>canvas</value>
-      <webElementGuid>e3e69ebd-ebe8-4826-80f1-d289561f2ff6</webElementGuid>
+      <webElementGuid>73d3165c-b2ea-4fe9-a329-94b8d50f1158</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>493</value>
-      <webElementGuid>41740414-1579-47b9-a76b-0d15a01948df</webElementGuid>
+      <webElementGuid>330acc7d-41fd-4923-ab8c-a2c70920c8aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1402</value>
-      <webElementGuid>8a40034f-9652-4527-a99b-106e1599f0e1</webElementGuid>
+      <webElementGuid>81c9f1b0-8610-4a04-b827-634d21c3458e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mycy&quot;)/div[1]/canvas[4]</value>
-      <webElementGuid>91958e2b-3e12-4fac-b27e-3215a6f124dd</webElementGuid>
+      <webElementGuid>2dbe7fb5-91c6-4820-bdc7-071ad8ddbb7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mycy']/div/canvas[4]</value>
-      <webElementGuid>ee08ed70-9510-4d5f-9cdd-b34c0db939ba</webElementGuid>
+      <webElementGuid>0a8c69e2-2921-4cd5-be98-8de1b9171d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +69,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//canvas[4]</value>
-      <webElementGuid>729c9ac1-e789-4301-89c4-153183e6f864</webElementGuid>
+      <webElementGuid>6b6064fc-279e-4b48-a278-46635eb30e68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

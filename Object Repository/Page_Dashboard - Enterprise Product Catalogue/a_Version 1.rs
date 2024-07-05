@@ -6,19 +6,19 @@
    <elementGuidId>9dbb09fc-7162-4562-b82c-a2551a178c72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.hyperlink > a</value>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Version 1' or . = 'Version 1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;window.openInCatalogueSelection('0','1')&quot;]</value>
+         <key>CSS</key>
+         <value>td.hyperlink > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Version 1&quot;s</value>
+         <value>internal:text=&quot;Version 1&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>89597dfb-22b3-4893-b34b-e4881b2585b0</webElementGuid>
+      <webElementGuid>897e6c69-9c11-4e7c-a8b6-3cd7c5c5f5e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>window.openInCatalogueSelection('0','1')</value>
-      <webElementGuid>a49d3654-ded8-4812-8191-29e6523a454d</webElementGuid>
+      <webElementGuid>c28ae61a-64f9-4b7c-918f-bba7df9631df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,39 +45,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Version 1</value>
-      <webElementGuid>6340ed5d-5461-4e03-bc02-c9406d9f5be7</webElementGuid>
+      <webElementGuid>b47abc11-e9ac-4f77-bc22-6fd80b435bf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel auto-height bottom-margin-50 dashboard-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
-      <webElementGuid>9203d539-2bbf-4bc4-99a9-811fb8780280</webElementGuid>
+      <value>id(&quot;rightarea&quot;)/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;panel panel-default c-dashboard-tab&quot;]/div[@class=&quot;panel-body version-target-panel auto-height bottom-margin-50 dashboard-tab-content&quot;]/div[@class=&quot;tab-pane fade in active&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hyperlink&quot;]/a[1]</value>
+      <webElementGuid>a5b2970c-31bb-4216-b3c3-34d9dd0349a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;window.openInCatalogueSelection('0','1')&quot;]</value>
-      <webElementGuid>2a5c48f1-56a9-4ff1-b15d-c82c15258874</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='rightarea']/div/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/a</value>
-      <webElementGuid>7b929ca4-ea63-4710-99d6-c96bd00437b9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Version 1')]</value>
-      <webElementGuid>45aeff28-b0b6-4713-bdb6-3567994159cd</webElementGuid>
+      <value>//a[(text() = 'Version 1' or . = 'Version 1')]</value>
+      <webElementGuid>522e3819-a50f-431b-a6f0-d656f0e62290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::a[1]</value>
-      <webElementGuid>924e5158-be06-4aa4-b6e9-e4d18fc8406c</webElementGuid>
+      <webElementGuid>42566ce4-b514-4833-973f-65e783e344bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +77,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edited'])[1]/following::a[1]</value>
-      <webElementGuid>604406f9-7914-4b2d-bf96-479452c867bb</webElementGuid>
+      <webElementGuid>790f96f5-727b-437f-9c4e-cd346df38be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Revert)'])[1]/preceding::a[1]</value>
+      <webElementGuid>332d148f-7ac7-4d7c-9f90-39f1dd72b5fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Version 1']/parent::*</value>
+      <webElementGuid>fa75d609-099a-40c0-9cba-db6c98bf3f62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;window.openInCatalogueSelection('0','1')&quot;]</value>
+      <webElementGuid>f6c58c3d-51ab-405a-80a1-573f6baad191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightarea']/div/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>1f6db55b-6c72-41c9-832b-f0efcb948272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Version 1')]</value>
+      <webElementGuid>e622aeb0-f102-4525-86d9-91f7dd6dc4bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>b9623092-bd1e-4047-bcb5-8d38e13d0e73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,42 +146,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Version 1']/parent::*</value>
-      <webElementGuid>874eec7c-758e-45bf-b0f9-9009e2f51faf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td/a</value>
-      <webElementGuid>6a0e8207-c6fc-41e0-95cd-644c735477c6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Version 1' or . = 'Version 1')]</value>
-      <webElementGuid>cec017cb-6b52-4236-b364-bb74fc3f3723</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;window.openInCatalogueSelection('28','1')&quot;]</value>
       <webElementGuid>1a104479-0426-4d37-8f70-351e97b3fa05</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Revert)'])[1]/preceding::a[1]</value>
-      <webElementGuid>a5e14306-fb9e-4a75-8817-3e9be1f13785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
